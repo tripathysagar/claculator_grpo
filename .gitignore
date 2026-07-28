@@ -1,0 +1,33 @@
+.env
+.env.*
+!.env.example
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and editor state
+.venv/
+venv/
+.vscode/
+.DS_Store
+
+# Jupyter scratch state
+.ipynb_checkpoints/
+
+# Incomplete or temporary artifacts
+*.tmp
+*.part
+*.partial
+outputs/
+outputs/**/checkpoints/
+checkpoints/
+
+# Model binaries belong in artifact storage, not Git
+*.safetensors
+*.ckpt
+*.pt
+*.pth

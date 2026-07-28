@@ -1,0 +1,3127 @@
+{
+  "arms": {
+    "20": {
+      "file_sha256": {
+        "dataset_dict.json": "384537eba3b6a29c93646a8d2e03050a43d98dcc45a8d23bb4c85dc9ddb8134a",
+        "eval/data-00000-of-00001.arrow": "31d80dfdd202cb54c8382a64c04cbc9c4b2ca59d7e2227c20e1f1c6ef2ddf560",
+        "eval/dataset_info.json": "a400fb9ba23ec3ee525edeca95b0e04365b4f60c9c148dd9f1979a651120f80b",
+        "eval/state.json": "edb8d0e70d7bbdd6fff083c4441099ff3ba344c5e417ca2ae24a3fba5a46e16a",
+        "ood_float/data-00000-of-00001.arrow": "60b67e7bfbf0fd6d06cb36f93944990c4555922ff673299d723a1785ea0a4c7d",
+        "ood_float/dataset_info.json": "fcc3f9e7dd480dfb5666f61a9a154dae3350d17cece27ad433533e8e46f06832",
+        "ood_float/state.json": "5e2a64c4a3485c6e06bcf55b4e0019f8f1a20fb2fce41df3c4190d6abddb36b8",
+        "ood_length/data-00000-of-00001.arrow": "34239bf74be230942b34b67b6b20c17d6ce95d1aa364573570c4450c14f3592b",
+        "ood_length/dataset_info.json": "ef868875332274f9eac56a995e503d7ab69c786785ab4c16091681c185ca3805",
+        "ood_length/state.json": "4a3256cf815c5e9ef3fcd594002ae89fa3587b7d931efad1f96d8a423dc485cb",
+        "ood_negative/data-00000-of-00001.arrow": "6f8880e9abdce5686ba5f04a75788db3978eb18a4fa78bc8a2881e7efbe12f5b",
+        "ood_negative/dataset_info.json": "ef868875332274f9eac56a995e503d7ab69c786785ab4c16091681c185ca3805",
+        "ood_negative/state.json": "d406de6ec2418b1b1ea6d77ccc3379c2fa10a5ee5ad210c6f4b3360b2f41e21a",
+        "test/data-00000-of-00001.arrow": "19d308968929d0792160d1e131b9df2a0b2d85d8a5444c23fa4c5162f2714640",
+        "test/dataset_info.json": "a400fb9ba23ec3ee525edeca95b0e04365b4f60c9c148dd9f1979a651120f80b",
+        "test/state.json": "68a1c3ca452d69e5b22204fcfb7e3ea8c86c85cf01e8c9f5d047361f16f20074",
+        "train/data-00000-of-00001.arrow": "00bb196a94827a29ca69cf012a679504db16dac31054e57677128dc2e9476b64",
+        "train/dataset_info.json": "7dbf818c8d08f26845f216035046cecef0e4fb9ba45c08d4e4dafd89f8f9beb5",
+        "train/state.json": "f3bed849193b443a194c6827d2d20bae758f5193a2a4994260d56dfa1445c334"
+      },
+      "grpo_replacement_ids": [
+        "calculator_0001",
+        "calculator_0023",
+        "calculator_0024",
+        "calculator_0027",
+        "calculator_0051",
+        "calculator_0065",
+        "calculator_0071",
+        "calculator_0080",
+        "calculator_0082",
+        "calculator_0097",
+        "calculator_0101",
+        "calculator_0104",
+        "calculator_0105",
+        "calculator_0114",
+        "calculator_0120",
+        "calculator_0123",
+        "calculator_0130",
+        "calculator_0142",
+        "calculator_0146",
+        "calculator_0147",
+        "calculator_0151",
+        "calculator_0164",
+        "calculator_0172",
+        "calculator_0195",
+        "calculator_0200",
+        "calculator_0204",
+        "calculator_0212",
+        "calculator_0214",
+        "calculator_0220",
+        "calculator_0223",
+        "calculator_0241",
+        "calculator_0246",
+        "calculator_0254",
+        "calculator_0267",
+        "calculator_0270",
+        "calculator_0271",
+        "calculator_0274",
+        "calculator_0280",
+        "calculator_0286",
+        "calculator_0296",
+        "calculator_0297",
+        "calculator_0298",
+        "calculator_0301",
+        "calculator_0302",
+        "calculator_0304",
+        "calculator_0308",
+        "calculator_0313",
+        "calculator_0314",
+        "calculator_0317",
+        "calculator_0330",
+        "calculator_0332",
+        "calculator_0338",
+        "calculator_0361",
+        "calculator_0388",
+        "calculator_0395",
+        "calculator_0396",
+        "calculator_0446",
+        "calculator_0467",
+        "calculator_0469",
+        "calculator_0476",
+        "calculator_0484",
+        "calculator_0507",
+        "calculator_0511",
+        "calculator_0519",
+        "calculator_0537",
+        "calculator_0545",
+        "calculator_0549",
+        "calculator_0561",
+        "calculator_0565",
+        "calculator_0594",
+        "calculator_0601",
+        "calculator_0608",
+        "calculator_0620",
+        "calculator_0624",
+        "calculator_0631",
+        "calculator_0641",
+        "calculator_0645",
+        "calculator_0646",
+        "calculator_0649",
+        "calculator_0650",
+        "calculator_0654",
+        "calculator_0660",
+        "calculator_0661",
+        "calculator_0665",
+        "calculator_0673",
+        "calculator_0684",
+        "calculator_0695",
+        "calculator_0701",
+        "calculator_0702",
+        "calculator_0707",
+        "calculator_0714",
+        "calculator_0715",
+        "calculator_0721",
+        "calculator_0737",
+        "calculator_0756",
+        "calculator_0775",
+        "calculator_0776",
+        "calculator_0792",
+        "calculator_0812",
+        "calculator_0824",
+        "calculator_0838",
+        "calculator_0849",
+        "calculator_0862",
+        "calculator_0873",
+        "calculator_0874",
+        "calculator_0881",
+        "calculator_0885",
+        "calculator_0899",
+        "calculator_0904",
+        "calculator_0918",
+        "calculator_0919",
+        "calculator_0933",
+        "calculator_0941",
+        "calculator_0943",
+        "calculator_0951",
+        "calculator_0974",
+        "calculator_0988",
+        "calculator_0990",
+        "calculator_0996",
+        "calculator_0999"
+      ],
+      "output": "data/calculator_qwen3_float20",
+      "sft_replacement_ids": [
+        "calculator_0008",
+        "calculator_0019",
+        "calculator_0025",
+        "calculator_0055",
+        "calculator_0072",
+        "calculator_0168",
+        "calculator_0173",
+        "calculator_0191",
+        "calculator_0207",
+        "calculator_0208",
+        "calculator_0237",
+        "calculator_0358",
+        "calculator_0366",
+        "calculator_0391",
+        "calculator_0397",
+        "calculator_0413",
+        "calculator_0416",
+        "calculator_0435",
+        "calculator_0458",
+        "calculator_0524",
+        "calculator_0538",
+        "calculator_0557",
+        "calculator_0586",
+        "calculator_0587",
+        "calculator_0635",
+        "calculator_0636",
+        "calculator_0642",
+        "calculator_0655",
+        "calculator_0730",
+        "calculator_0747",
+        "calculator_0797",
+        "calculator_0806",
+        "calculator_0808",
+        "calculator_0831",
+        "calculator_0846",
+        "calculator_0851",
+        "calculator_0926",
+        "calculator_0968",
+        "calculator_0971",
+        "calculator_0993"
+      ],
+      "split_fingerprints": {
+        "eval": "5e76507340bc4bc6",
+        "ood_float": "46ad1992ae6b1505",
+        "ood_length": "aeb656b1f4417100",
+        "ood_negative": "7fadf4ae26fbf777",
+        "test": "719ef5e9bc133325",
+        "train": "f731025045a1e575"
+      },
+      "stage_counts": {
+        "grpo": {
+          "float": 120,
+          "id": 480,
+          "total": 600
+        },
+        "sft": {
+          "float": 40,
+          "id": 160,
+          "total": 200
+        }
+      }
+    },
+    "30": {
+      "file_sha256": {
+        "dataset_dict.json": "384537eba3b6a29c93646a8d2e03050a43d98dcc45a8d23bb4c85dc9ddb8134a",
+        "eval/data-00000-of-00001.arrow": "31d80dfdd202cb54c8382a64c04cbc9c4b2ca59d7e2227c20e1f1c6ef2ddf560",
+        "eval/dataset_info.json": "a400fb9ba23ec3ee525edeca95b0e04365b4f60c9c148dd9f1979a651120f80b",
+        "eval/state.json": "edb8d0e70d7bbdd6fff083c4441099ff3ba344c5e417ca2ae24a3fba5a46e16a",
+        "ood_float/data-00000-of-00001.arrow": "60b67e7bfbf0fd6d06cb36f93944990c4555922ff673299d723a1785ea0a4c7d",
+        "ood_float/dataset_info.json": "fcc3f9e7dd480dfb5666f61a9a154dae3350d17cece27ad433533e8e46f06832",
+        "ood_float/state.json": "5e2a64c4a3485c6e06bcf55b4e0019f8f1a20fb2fce41df3c4190d6abddb36b8",
+        "ood_length/data-00000-of-00001.arrow": "34239bf74be230942b34b67b6b20c17d6ce95d1aa364573570c4450c14f3592b",
+        "ood_length/dataset_info.json": "ef868875332274f9eac56a995e503d7ab69c786785ab4c16091681c185ca3805",
+        "ood_length/state.json": "4a3256cf815c5e9ef3fcd594002ae89fa3587b7d931efad1f96d8a423dc485cb",
+        "ood_negative/data-00000-of-00001.arrow": "6f8880e9abdce5686ba5f04a75788db3978eb18a4fa78bc8a2881e7efbe12f5b",
+        "ood_negative/dataset_info.json": "ef868875332274f9eac56a995e503d7ab69c786785ab4c16091681c185ca3805",
+        "ood_negative/state.json": "d406de6ec2418b1b1ea6d77ccc3379c2fa10a5ee5ad210c6f4b3360b2f41e21a",
+        "test/data-00000-of-00001.arrow": "19d308968929d0792160d1e131b9df2a0b2d85d8a5444c23fa4c5162f2714640",
+        "test/dataset_info.json": "a400fb9ba23ec3ee525edeca95b0e04365b4f60c9c148dd9f1979a651120f80b",
+        "test/state.json": "68a1c3ca452d69e5b22204fcfb7e3ea8c86c85cf01e8c9f5d047361f16f20074",
+        "train/data-00000-of-00001.arrow": "94f549802129aa70ce8233a9e3458638fa17ebb6aea21721b73507f8548d0672",
+        "train/dataset_info.json": "7dbf818c8d08f26845f216035046cecef0e4fb9ba45c08d4e4dafd89f8f9beb5",
+        "train/state.json": "cff123a700a764cbbc021ad1c51a73121c873162c08306e4792c6e26a1f8fbaf"
+      },
+      "grpo_replacement_ids": [
+        "calculator_0001",
+        "calculator_0023",
+        "calculator_0024",
+        "calculator_0027",
+        "calculator_0029",
+        "calculator_0039",
+        "calculator_0040",
+        "calculator_0048",
+        "calculator_0050",
+        "calculator_0051",
+        "calculator_0058",
+        "calculator_0065",
+        "calculator_0071",
+        "calculator_0078",
+        "calculator_0080",
+        "calculator_0082",
+        "calculator_0086",
+        "calculator_0087",
+        "calculator_0096",
+        "calculator_0097",
+        "calculator_0101",
+        "calculator_0104",
+        "calculator_0105",
+        "calculator_0114",
+        "calculator_0120",
+        "calculator_0123",
+        "calculator_0130",
+        "calculator_0141",
+        "calculator_0142",
+        "calculator_0146",
+        "calculator_0147",
+        "calculator_0151",
+        "calculator_0161",
+        "calculator_0164",
+        "calculator_0172",
+        "calculator_0181",
+        "calculator_0195",
+        "calculator_0200",
+        "calculator_0204",
+        "calculator_0205",
+        "calculator_0212",
+        "calculator_0214",
+        "calculator_0220",
+        "calculator_0223",
+        "calculator_0238",
+        "calculator_0240",
+        "calculator_0241",
+        "calculator_0244",
+        "calculator_0246",
+        "calculator_0254",
+        "calculator_0257",
+        "calculator_0267",
+        "calculator_0270",
+        "calculator_0271",
+        "calculator_0274",
+        "calculator_0280",
+        "calculator_0286",
+        "calculator_0296",
+        "calculator_0297",
+        "calculator_0298",
+        "calculator_0301",
+        "calculator_0302",
+        "calculator_0304",
+        "calculator_0308",
+        "calculator_0313",
+        "calculator_0314",
+        "calculator_0317",
+        "calculator_0330",
+        "calculator_0332",
+        "calculator_0338",
+        "calculator_0341",
+        "calculator_0343",
+        "calculator_0346",
+        "calculator_0355",
+        "calculator_0357",
+        "calculator_0361",
+        "calculator_0372",
+        "calculator_0386",
+        "calculator_0388",
+        "calculator_0395",
+        "calculator_0396",
+        "calculator_0412",
+        "calculator_0419",
+        "calculator_0438",
+        "calculator_0446",
+        "calculator_0467",
+        "calculator_0469",
+        "calculator_0476",
+        "calculator_0478",
+        "calculator_0484",
+        "calculator_0485",
+        "calculator_0507",
+        "calculator_0511",
+        "calculator_0516",
+        "calculator_0519",
+        "calculator_0532",
+        "calculator_0537",
+        "calculator_0545",
+        "calculator_0546",
+        "calculator_0549",
+        "calculator_0555",
+        "calculator_0561",
+        "calculator_0565",
+        "calculator_0568",
+        "calculator_0572",
+        "calculator_0580",
+        "calculator_0594",
+        "calculator_0601",
+        "calculator_0605",
+        "calculator_0608",
+        "calculator_0610",
+        "calculator_0620",
+        "calculator_0624",
+        "calculator_0631",
+        "calculator_0639",
+        "calculator_0641",
+        "calculator_0645",
+        "calculator_0646",
+        "calculator_0649",
+        "calculator_0650",
+        "calculator_0652",
+        "calculator_0654",
+        "calculator_0656",
+        "calculator_0657",
+        "calculator_0660",
+        "calculator_0661",
+        "calculator_0665",
+        "calculator_0673",
+        "calculator_0679",
+        "calculator_0684",
+        "calculator_0695",
+        "calculator_0699",
+        "calculator_0701",
+        "calculator_0702",
+        "calculator_0706",
+        "calculator_0707",
+        "calculator_0712",
+        "calculator_0713",
+        "calculator_0714",
+        "calculator_0715",
+        "calculator_0721",
+        "calculator_0726",
+        "calculator_0737",
+        "calculator_0741",
+        "calculator_0756",
+        "calculator_0770",
+        "calculator_0774",
+        "calculator_0775",
+        "calculator_0776",
+        "calculator_0792",
+        "calculator_0798",
+        "calculator_0803",
+        "calculator_0812",
+        "calculator_0818",
+        "calculator_0824",
+        "calculator_0838",
+        "calculator_0840",
+        "calculator_0849",
+        "calculator_0852",
+        "calculator_0862",
+        "calculator_0873",
+        "calculator_0874",
+        "calculator_0880",
+        "calculator_0881",
+        "calculator_0885",
+        "calculator_0899",
+        "calculator_0904",
+        "calculator_0911",
+        "calculator_0918",
+        "calculator_0919",
+        "calculator_0933",
+        "calculator_0941",
+        "calculator_0943",
+        "calculator_0951",
+        "calculator_0974",
+        "calculator_0975",
+        "calculator_0988",
+        "calculator_0990",
+        "calculator_0996",
+        "calculator_0999"
+      ],
+      "output": "data/calculator_qwen3_float30",
+      "sft_replacement_ids": [
+        "calculator_0008",
+        "calculator_0019",
+        "calculator_0025",
+        "calculator_0037",
+        "calculator_0055",
+        "calculator_0072",
+        "calculator_0090",
+        "calculator_0111",
+        "calculator_0168",
+        "calculator_0173",
+        "calculator_0178",
+        "calculator_0186",
+        "calculator_0191",
+        "calculator_0207",
+        "calculator_0208",
+        "calculator_0237",
+        "calculator_0243",
+        "calculator_0358",
+        "calculator_0366",
+        "calculator_0385",
+        "calculator_0391",
+        "calculator_0397",
+        "calculator_0413",
+        "calculator_0416",
+        "calculator_0435",
+        "calculator_0458",
+        "calculator_0477",
+        "calculator_0486",
+        "calculator_0524",
+        "calculator_0528",
+        "calculator_0538",
+        "calculator_0557",
+        "calculator_0559",
+        "calculator_0573",
+        "calculator_0575",
+        "calculator_0586",
+        "calculator_0587",
+        "calculator_0598",
+        "calculator_0635",
+        "calculator_0636",
+        "calculator_0640",
+        "calculator_0642",
+        "calculator_0644",
+        "calculator_0655",
+        "calculator_0730",
+        "calculator_0747",
+        "calculator_0769",
+        "calculator_0797",
+        "calculator_0806",
+        "calculator_0808",
+        "calculator_0831",
+        "calculator_0846",
+        "calculator_0851",
+        "calculator_0864",
+        "calculator_0920",
+        "calculator_0926",
+        "calculator_0934",
+        "calculator_0968",
+        "calculator_0971",
+        "calculator_0993"
+      ],
+      "split_fingerprints": {
+        "eval": "5e76507340bc4bc6",
+        "ood_float": "46ad1992ae6b1505",
+        "ood_length": "aeb656b1f4417100",
+        "ood_negative": "7fadf4ae26fbf777",
+        "test": "719ef5e9bc133325",
+        "train": "3b1a3c0c65496f62"
+      },
+      "stage_counts": {
+        "grpo": {
+          "float": 180,
+          "id": 420,
+          "total": 600
+        },
+        "sft": {
+          "float": 60,
+          "id": 140,
+          "total": 200
+        }
+      }
+    },
+    "40": {
+      "file_sha256": {
+        "dataset_dict.json": "384537eba3b6a29c93646a8d2e03050a43d98dcc45a8d23bb4c85dc9ddb8134a",
+        "eval/data-00000-of-00001.arrow": "31d80dfdd202cb54c8382a64c04cbc9c4b2ca59d7e2227c20e1f1c6ef2ddf560",
+        "eval/dataset_info.json": "a400fb9ba23ec3ee525edeca95b0e04365b4f60c9c148dd9f1979a651120f80b",
+        "eval/state.json": "edb8d0e70d7bbdd6fff083c4441099ff3ba344c5e417ca2ae24a3fba5a46e16a",
+        "ood_float/data-00000-of-00001.arrow": "60b67e7bfbf0fd6d06cb36f93944990c4555922ff673299d723a1785ea0a4c7d",
+        "ood_float/dataset_info.json": "fcc3f9e7dd480dfb5666f61a9a154dae3350d17cece27ad433533e8e46f06832",
+        "ood_float/state.json": "5e2a64c4a3485c6e06bcf55b4e0019f8f1a20fb2fce41df3c4190d6abddb36b8",
+        "ood_length/data-00000-of-00001.arrow": "34239bf74be230942b34b67b6b20c17d6ce95d1aa364573570c4450c14f3592b",
+        "ood_length/dataset_info.json": "ef868875332274f9eac56a995e503d7ab69c786785ab4c16091681c185ca3805",
+        "ood_length/state.json": "4a3256cf815c5e9ef3fcd594002ae89fa3587b7d931efad1f96d8a423dc485cb",
+        "ood_negative/data-00000-of-00001.arrow": "6f8880e9abdce5686ba5f04a75788db3978eb18a4fa78bc8a2881e7efbe12f5b",
+        "ood_negative/dataset_info.json": "ef868875332274f9eac56a995e503d7ab69c786785ab4c16091681c185ca3805",
+        "ood_negative/state.json": "d406de6ec2418b1b1ea6d77ccc3379c2fa10a5ee5ad210c6f4b3360b2f41e21a",
+        "test/data-00000-of-00001.arrow": "19d308968929d0792160d1e131b9df2a0b2d85d8a5444c23fa4c5162f2714640",
+        "test/dataset_info.json": "a400fb9ba23ec3ee525edeca95b0e04365b4f60c9c148dd9f1979a651120f80b",
+        "test/state.json": "68a1c3ca452d69e5b22204fcfb7e3ea8c86c85cf01e8c9f5d047361f16f20074",
+        "train/data-00000-of-00001.arrow": "3528b365ef9c10235b869878141844c74abc036401aa96503881d458fa1234c5",
+        "train/dataset_info.json": "7dbf818c8d08f26845f216035046cecef0e4fb9ba45c08d4e4dafd89f8f9beb5",
+        "train/state.json": "3383404fb60df658ac0e594373c27eb472203a92886c1a6900d5f835d3367d34"
+      },
+      "grpo_replacement_ids": [
+        "calculator_0000",
+        "calculator_0001",
+        "calculator_0022",
+        "calculator_0023",
+        "calculator_0024",
+        "calculator_0027",
+        "calculator_0029",
+        "calculator_0039",
+        "calculator_0040",
+        "calculator_0047",
+        "calculator_0048",
+        "calculator_0050",
+        "calculator_0051",
+        "calculator_0053",
+        "calculator_0058",
+        "calculator_0065",
+        "calculator_0071",
+        "calculator_0078",
+        "calculator_0080",
+        "calculator_0082",
+        "calculator_0086",
+        "calculator_0087",
+        "calculator_0096",
+        "calculator_0097",
+        "calculator_0101",
+        "calculator_0104",
+        "calculator_0105",
+        "calculator_0110",
+        "calculator_0114",
+        "calculator_0120",
+        "calculator_0122",
+        "calculator_0123",
+        "calculator_0124",
+        "calculator_0130",
+        "calculator_0141",
+        "calculator_0142",
+        "calculator_0146",
+        "calculator_0147",
+        "calculator_0148",
+        "calculator_0151",
+        "calculator_0161",
+        "calculator_0164",
+        "calculator_0172",
+        "calculator_0181",
+        "calculator_0185",
+        "calculator_0195",
+        "calculator_0196",
+        "calculator_0200",
+        "calculator_0201",
+        "calculator_0202",
+        "calculator_0204",
+        "calculator_0205",
+        "calculator_0212",
+        "calculator_0214",
+        "calculator_0220",
+        "calculator_0221",
+        "calculator_0222",
+        "calculator_0223",
+        "calculator_0229",
+        "calculator_0236",
+        "calculator_0238",
+        "calculator_0240",
+        "calculator_0241",
+        "calculator_0244",
+        "calculator_0246",
+        "calculator_0254",
+        "calculator_0256",
+        "calculator_0257",
+        "calculator_0262",
+        "calculator_0267",
+        "calculator_0270",
+        "calculator_0271",
+        "calculator_0274",
+        "calculator_0278",
+        "calculator_0280",
+        "calculator_0282",
+        "calculator_0286",
+        "calculator_0287",
+        "calculator_0296",
+        "calculator_0297",
+        "calculator_0298",
+        "calculator_0301",
+        "calculator_0302",
+        "calculator_0304",
+        "calculator_0308",
+        "calculator_0310",
+        "calculator_0313",
+        "calculator_0314",
+        "calculator_0317",
+        "calculator_0327",
+        "calculator_0328",
+        "calculator_0330",
+        "calculator_0332",
+        "calculator_0336",
+        "calculator_0338",
+        "calculator_0341",
+        "calculator_0343",
+        "calculator_0346",
+        "calculator_0349",
+        "calculator_0353",
+        "calculator_0355",
+        "calculator_0356",
+        "calculator_0357",
+        "calculator_0361",
+        "calculator_0372",
+        "calculator_0384",
+        "calculator_0386",
+        "calculator_0388",
+        "calculator_0395",
+        "calculator_0396",
+        "calculator_0405",
+        "calculator_0412",
+        "calculator_0419",
+        "calculator_0420",
+        "calculator_0425",
+        "calculator_0433",
+        "calculator_0438",
+        "calculator_0446",
+        "calculator_0450",
+        "calculator_0454",
+        "calculator_0459",
+        "calculator_0461",
+        "calculator_0467",
+        "calculator_0469",
+        "calculator_0476",
+        "calculator_0478",
+        "calculator_0484",
+        "calculator_0485",
+        "calculator_0494",
+        "calculator_0504",
+        "calculator_0507",
+        "calculator_0511",
+        "calculator_0516",
+        "calculator_0519",
+        "calculator_0532",
+        "calculator_0537",
+        "calculator_0540",
+        "calculator_0541",
+        "calculator_0545",
+        "calculator_0546",
+        "calculator_0547",
+        "calculator_0549",
+        "calculator_0555",
+        "calculator_0561",
+        "calculator_0565",
+        "calculator_0568",
+        "calculator_0570",
+        "calculator_0572",
+        "calculator_0580",
+        "calculator_0583",
+        "calculator_0594",
+        "calculator_0601",
+        "calculator_0605",
+        "calculator_0607",
+        "calculator_0608",
+        "calculator_0610",
+        "calculator_0620",
+        "calculator_0624",
+        "calculator_0631",
+        "calculator_0639",
+        "calculator_0641",
+        "calculator_0645",
+        "calculator_0646",
+        "calculator_0649",
+        "calculator_0650",
+        "calculator_0652",
+        "calculator_0654",
+        "calculator_0656",
+        "calculator_0657",
+        "calculator_0660",
+        "calculator_0661",
+        "calculator_0665",
+        "calculator_0673",
+        "calculator_0679",
+        "calculator_0684",
+        "calculator_0695",
+        "calculator_0697",
+        "calculator_0699",
+        "calculator_0701",
+        "calculator_0702",
+        "calculator_0706",
+        "calculator_0707",
+        "calculator_0712",
+        "calculator_0713",
+        "calculator_0714",
+        "calculator_0715",
+        "calculator_0721",
+        "calculator_0726",
+        "calculator_0733",
+        "calculator_0737",
+        "calculator_0738",
+        "calculator_0741",
+        "calculator_0756",
+        "calculator_0758",
+        "calculator_0768",
+        "calculator_0770",
+        "calculator_0774",
+        "calculator_0775",
+        "calculator_0776",
+        "calculator_0788",
+        "calculator_0792",
+        "calculator_0796",
+        "calculator_0798",
+        "calculator_0803",
+        "calculator_0812",
+        "calculator_0818",
+        "calculator_0823",
+        "calculator_0824",
+        "calculator_0826",
+        "calculator_0836",
+        "calculator_0838",
+        "calculator_0840",
+        "calculator_0849",
+        "calculator_0852",
+        "calculator_0862",
+        "calculator_0867",
+        "calculator_0873",
+        "calculator_0874",
+        "calculator_0880",
+        "calculator_0881",
+        "calculator_0885",
+        "calculator_0889",
+        "calculator_0899",
+        "calculator_0904",
+        "calculator_0911",
+        "calculator_0918",
+        "calculator_0919",
+        "calculator_0933",
+        "calculator_0941",
+        "calculator_0943",
+        "calculator_0951",
+        "calculator_0967",
+        "calculator_0974",
+        "calculator_0975",
+        "calculator_0986",
+        "calculator_0988",
+        "calculator_0989",
+        "calculator_0990",
+        "calculator_0996",
+        "calculator_0999"
+      ],
+      "output": "data/calculator_qwen3_float40",
+      "sft_replacement_ids": [
+        "calculator_0008",
+        "calculator_0019",
+        "calculator_0025",
+        "calculator_0037",
+        "calculator_0055",
+        "calculator_0072",
+        "calculator_0090",
+        "calculator_0108",
+        "calculator_0109",
+        "calculator_0111",
+        "calculator_0168",
+        "calculator_0173",
+        "calculator_0178",
+        "calculator_0179",
+        "calculator_0186",
+        "calculator_0191",
+        "calculator_0207",
+        "calculator_0208",
+        "calculator_0218",
+        "calculator_0233",
+        "calculator_0237",
+        "calculator_0243",
+        "calculator_0358",
+        "calculator_0366",
+        "calculator_0370",
+        "calculator_0385",
+        "calculator_0391",
+        "calculator_0397",
+        "calculator_0413",
+        "calculator_0416",
+        "calculator_0435",
+        "calculator_0458",
+        "calculator_0477",
+        "calculator_0486",
+        "calculator_0508",
+        "calculator_0524",
+        "calculator_0528",
+        "calculator_0538",
+        "calculator_0553",
+        "calculator_0557",
+        "calculator_0559",
+        "calculator_0573",
+        "calculator_0575",
+        "calculator_0578",
+        "calculator_0584",
+        "calculator_0586",
+        "calculator_0587",
+        "calculator_0598",
+        "calculator_0634",
+        "calculator_0635",
+        "calculator_0636",
+        "calculator_0640",
+        "calculator_0642",
+        "calculator_0644",
+        "calculator_0655",
+        "calculator_0676",
+        "calculator_0687",
+        "calculator_0691",
+        "calculator_0730",
+        "calculator_0747",
+        "calculator_0749",
+        "calculator_0769",
+        "calculator_0780",
+        "calculator_0797",
+        "calculator_0806",
+        "calculator_0808",
+        "calculator_0831",
+        "calculator_0842",
+        "calculator_0846",
+        "calculator_0851",
+        "calculator_0864",
+        "calculator_0872",
+        "calculator_0920",
+        "calculator_0926",
+        "calculator_0934",
+        "calculator_0946",
+        "calculator_0947",
+        "calculator_0968",
+        "calculator_0971",
+        "calculator_0993"
+      ],
+      "split_fingerprints": {
+        "eval": "5e76507340bc4bc6",
+        "ood_float": "46ad1992ae6b1505",
+        "ood_length": "aeb656b1f4417100",
+        "ood_negative": "7fadf4ae26fbf777",
+        "test": "719ef5e9bc133325",
+        "train": "b70b78a649a32e81"
+      },
+      "stage_counts": {
+        "grpo": {
+          "float": 240,
+          "id": 360,
+          "total": 600
+        },
+        "sft": {
+          "float": 80,
+          "id": 120,
+          "total": 200
+        }
+      }
+    }
+  },
+  "grpo_pool": [
+    {
+      "float_expression": "5.5 - 2.5 + 15.0 + 10.0*19.0",
+      "float_expression_sha256": "a9535c0c22fe1199e29e2f2049f5e2663a501261998340179ca5af6665e406ad",
+      "id": "calculator_0000",
+      "original_expression_sha256": "8c6f58c0af6d8b4226af4db08f60b9ea6de867866994b87aa04072dd76f7cc49",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5 + 18.5*5.0 + 5.5*4.0 - 7.0",
+      "float_expression_sha256": "6ada5bd73eec25e6e68fe35ea277b26a266182f14a23f9b4efaf7a05a5ddec4f",
+      "id": "calculator_0001",
+      "original_expression_sha256": "07c67c1e27563315152b80c8f9d70a4fdf26e7d6b218631cca4300f89059289b",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "11.5*9.0*17.0 + 9.5 + 2.0*15.0",
+      "float_expression_sha256": "a3ad5491e805bf70edf412f2a6fcd22c865d17eece161fff57ed644563460a4d",
+      "id": "calculator_0022",
+      "original_expression_sha256": "4e60c83ea217ae305d6efb0a27e01c52c0bbca685597d71d3ca4d407215a56dd",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "12.5 - 5.0 + 5.5*9.5",
+      "float_expression_sha256": "d8669bfc2e78af28a318928de7fa1b77767d2e7f5bb8eb90016920a20d07a3a1",
+      "id": "calculator_0023",
+      "original_expression_sha256": "b85694b972789c616ccaa486865d06fe259a83234e1b466b9bc19321e5b61e07",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5 - 19.5 + 9.0 + 2.5 + 4.0*17.0",
+      "float_expression_sha256": "d3a21cafedf5b6861593b2ddd00f95245d528788c6095561f5297dff1a1a2b3c",
+      "id": "calculator_0024",
+      "original_expression_sha256": "eeb73247a199d51fbddddf519c83c301771a658df0ca878ed45166d4de317332",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "15.5 + 20.0 - 19.0 + 15.0 - 8.0*20.0",
+      "float_expression_sha256": "911cc101652340532bb6497cac3e0f0b6e5c310b36bf10396b85d1d50cf288a9",
+      "id": "calculator_0027",
+      "original_expression_sha256": "aaae6e912cda27a7c2d568fdd602fead6b5654638278cf3c8b282ad79bb166a2",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "2.5*15.5 + 2.0 - 10.5*11.0*10.5",
+      "float_expression_sha256": "4a53b3cf72981e0813f9b80d49ce11c559c15756a6ee1e52506f4ec964f43c45",
+      "id": "calculator_0029",
+      "original_expression_sha256": "efbeec322649a064f805dc90c8084c39f808e46a8237d02914eb5e4fdee47082",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "15.5 + 18.5*6.5 - 12.5 - 8.0",
+      "float_expression_sha256": "a8893a6755a153ba1d7cd9883ae3e202f57c8322e60b319f10bd71b3439759fa",
+      "id": "calculator_0039",
+      "original_expression_sha256": "9ed11b8fcd860ae0fa8c66608757844deeeb4c84ba88abe2a53d76b21a7263eb",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.0 + 11.5*11.5",
+      "float_expression_sha256": "8ba43231ad921bd9357cd31e5e73e974fea153dd10772f5a2710cb8f7c4a14cd",
+      "id": "calculator_0040",
+      "original_expression_sha256": "9abc922f8f235b9d55e2e83bca69924bba3b699c0ea007b1366781420c2b8943",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "10.0*11.0 - 17.5*10.5 - 2.0",
+      "float_expression_sha256": "9d4ad8746732fe53de9ee6bb266bdf7d2e120eec4e58d87937b58cb221f10835",
+      "id": "calculator_0047",
+      "original_expression_sha256": "c15c14d47bb09732fdb336c91438d26d007d4d94ebe07c15d2bac8c674560668",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "7.5 + 6.5*8.5",
+      "float_expression_sha256": "c4ba505384b1b7a1106798963f5a4e9d9f1e5e5d861bcce354d24be136b35b65",
+      "id": "calculator_0048",
+      "original_expression_sha256": "7768df0e677eb88472b318c8fcfb7ad032455742637905c1f02fe3d38cd2716e",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "4.0*19.5*6.0 - 6.0 - 18.5*19.0",
+      "float_expression_sha256": "6662436f656072d7da35c36a3a18f71d045568bb29dc7ec7b619bef1e8f0bc97",
+      "id": "calculator_0050",
+      "original_expression_sha256": "2a03f6649632ea2ccfb76940a8a9e750870519c7c344e8233f7bb3f36aeb839a",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "2.5*19.0 - 18.5*18.5 - 10.0*14.5",
+      "float_expression_sha256": "e59faabdb18d254b2fda40cad49508b3b44e81a56ae04160081d604965b7ce8a",
+      "id": "calculator_0051",
+      "original_expression_sha256": "644442f5c7751169d69cc3334d4d99b96774b295aa1e5575693c6f9d61aa2fa9",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.5*2.5 - 14.5*19.0",
+      "float_expression_sha256": "587eeae8306d67eef45a4d09daf2646a04560666605086c6f421266977c97e0a",
+      "id": "calculator_0053",
+      "original_expression_sha256": "51f1f03ee981d4338813c1fb82483014ed879c692acbaedae5f866b6282adc19",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "3.0*8.5 + 5.5*14.5 + 17.5 + 18.0",
+      "float_expression_sha256": "154924ddcc80e4f056aaca137bf4529376c3af169e818a32568538ff4f25a9ee",
+      "id": "calculator_0058",
+      "original_expression_sha256": "c63d052b9b20ec047ee20b1f06afe9f3f6bc6537be2c8343f676e581fba65937",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "3.5 + 4.5*3.5 + 16.0*8.0 - 12.5",
+      "float_expression_sha256": "6b49bdd6a8a2c07c87e58530b7178f70d4adae2def974281816d536cc0c548a8",
+      "id": "calculator_0065",
+      "original_expression_sha256": "bdb3523de6d36b2c403e2560c6dcd1581a9323ce4c856e5baf7050cbf28f250f",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.5 + 5.5*7.5",
+      "float_expression_sha256": "f633ae50af97436dc3947ad8aff9544599a8aaa6abf799dd37046b0441f3f3e9",
+      "id": "calculator_0071",
+      "original_expression_sha256": "1cbb733edfe75947bd131f598a63ac4b2980fd4d8a5092df82d0083dc3859b0c",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "5.5 - 8.0*10.5",
+      "float_expression_sha256": "bcf3c93c364d38d6ba36e936127f1d7a04a26384c6680035e3173de7415e6697",
+      "id": "calculator_0078",
+      "original_expression_sha256": "2c794db7e6555cd65058185ea94fb718606b27413dd9da4a6b0f7370ad7f0d9b",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "19.5 + 18.0*17.5 - 8.5 + 16.0",
+      "float_expression_sha256": "bc227c94148b1c34f40f9b442be18ab263f55ec56c8b0ac5b29f89f28cb4b74d",
+      "id": "calculator_0080",
+      "original_expression_sha256": "9b67bb92168a8feffe1b1959fd54fadf47e5dac715d7ed3bd6d29b1abd19d7a3",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "17.0*3.5 + 7.5 + 4.5*12.5",
+      "float_expression_sha256": "3066c7e7043e664df5c63f34b66319c07322b778eaa2684ece3443db81393c33",
+      "id": "calculator_0082",
+      "original_expression_sha256": "f3dc76ef8e7705243f45c4ef52cf8e1f6f7aa97f19383775de3d216e699334ff",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "3.5*8.0 + 7.0 + 8.0 + 10.5*15.5",
+      "float_expression_sha256": "894a49b7c9d7042baaeeff2d5724ea5f95a7d075835c771e25911027a2b368ca",
+      "id": "calculator_0086",
+      "original_expression_sha256": "706f590e59cd66dc2a327d2710f8fecbafb560ba44d3d50bbb578b82d6cb6730",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.0 - 2.5*10.0*6.5*14.5",
+      "float_expression_sha256": "ced94cd53db59475a62699727f6bed0a009c41bd58d183e5f6de25a48e312126",
+      "id": "calculator_0087",
+      "original_expression_sha256": "85ce60706751fda1ff730e52bf8f82b0e39ae268d8b8a90a8c8d345ed8aedd11",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "5.5 - 18.0*15.0*10.0*18.0 + 15.5",
+      "float_expression_sha256": "f2ab5e43f0aa01f93a9f41a16e5da4ba73c6f82881d54ff61fb1b5331bcb3ac3",
+      "id": "calculator_0096",
+      "original_expression_sha256": "b17012b4ffe94fcfb60c19bc200fea8ec0a5043078ee127e7e55481feec4ae79",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.5*16.5 + 4.0*10.5 + 5.0*18.5",
+      "float_expression_sha256": "e3f87b565898132c68de068aa767458c80f53c11a7b96522128e2220076f9755",
+      "id": "calculator_0097",
+      "original_expression_sha256": "860ef4811c9a56d16f8760754eb0ae0fa158ab8f175ca98ef518f685a95db9c6",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "16.5 + 10.5*8.5 + 6.5 - 18.5",
+      "float_expression_sha256": "580c3c2fbe51c64cbd5b2d37e4f470cd77d2285790c4aade9a1588fd979b30f8",
+      "id": "calculator_0101",
+      "original_expression_sha256": "a35f4e4c079b5ea256578bf7c4ffe012cf71fb36546aee6cafa8f3ced54ab08a",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.5 - 7.5*2.5*12.5*17.0",
+      "float_expression_sha256": "de5782af6a398a8cbf0c2a5fb75d592c43a1325f681ed7916f9682cd9538d480",
+      "id": "calculator_0104",
+      "original_expression_sha256": "39af0557fe2a76a6813a1b04109189b2fd0428ad22661fc213d31cc81cb26c9c",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "16.0 + 5.0*15.0*3.5",
+      "float_expression_sha256": "d35278f68514b89345fd96a0f8068e1f9de2795ef09666a1944b0ab350e696e9",
+      "id": "calculator_0105",
+      "original_expression_sha256": "da69a1b40ed93cccbb3c2bc0d90212eb5cb146e8b3f1658886babaf31c9a7565",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5 - 12.5*11.5 + 7.5",
+      "float_expression_sha256": "4f886bbe4832e6e95938bbf7144008ef0c256dc4e50b1e093717d37cb1dfb70c",
+      "id": "calculator_0110",
+      "original_expression_sha256": "0d94c6a7d82883e875b2834221664b64cc2cfffc07d5e6449f74cfbc32f33033",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.5 - 6.5*15.0 + 9.5 - 12.0",
+      "float_expression_sha256": "ce8c982fa64f9778b901fdd76f5424ae0403b64af4c40296fa5a6aec0eaf0a81",
+      "id": "calculator_0114",
+      "original_expression_sha256": "616c4d427fbc1dfdb2cbc514d2616d418f6a9ad233930386e9e73e693cc9722a",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "5.5 - 11.0*4.5*6.5",
+      "float_expression_sha256": "1f08ccb75f8c044336423f54a9ba002ad9176fa59c63c97aba4f282cdaf5b650",
+      "id": "calculator_0120",
+      "original_expression_sha256": "b4ae4920de9a18586ba934dfb8dc995d198e5ff39d9c4aa838e4fafbbe5c6141",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.5 - 3.5 + 7.5 + 17.0*14.5",
+      "float_expression_sha256": "0faa3fdd1da96c564ad3458e53bdd75b0b4ad8b02f9774dd01bfed8f51752c55",
+      "id": "calculator_0122",
+      "original_expression_sha256": "e0918b199efab34672f5601211eda0710123d4cb99fad056db93a90452af0e04",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.5 + 11.5*5.5*6.0 - 10.5 + 8.0",
+      "float_expression_sha256": "cd18ebf80cda6062c1965cc43ecbfa9989faf63ed933f7cc5edf76a023876a8d",
+      "id": "calculator_0123",
+      "original_expression_sha256": "a1d86db1707dd4e5203da7747585fb5cec42943b0b41ef509f4af95c3b0cdb7f",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "13.5*17.5 - 20.0 + 11.5*17.0*2.5",
+      "float_expression_sha256": "613585b9d63a358089694868e3c1dddef5de5cf24a46828cf43f478f2cdf03aa",
+      "id": "calculator_0124",
+      "original_expression_sha256": "6e014a600a89730f56862f4cc618b0230cb9a9e339e9adf6ef486fbd8b703b29",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.5*7.5 - 18.5*18.0*4.5",
+      "float_expression_sha256": "508a8ead21ac0fa8a78c4d10350b984060d7ffd1f95f62cc057cc80474e808c7",
+      "id": "calculator_0130",
+      "original_expression_sha256": "646b503120a887a12fd0b770f44a492824c0968df91590f14c54a6912517949d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "17.5 + 18.5*4.5 - 5.0 - 12.0",
+      "float_expression_sha256": "5a950141cb2eca64d923b720bba864121d5e93b710328121bb40e363ca26883e",
+      "id": "calculator_0141",
+      "original_expression_sha256": "8cdb9bcc00f3fd2d2d2ca7c99723fccf969205b386a07154c3438d46239aad22",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5*10.0*3.5 - 19.5 + 6.5*8.0",
+      "float_expression_sha256": "805afb46db918e702ae94fa21282889fb38337510004c82a4f3f13c0dec9e1e4",
+      "id": "calculator_0142",
+      "original_expression_sha256": "803ee0ef3c85f2a88b8383eb7de01b07b9c33a0dd2fca10f82c6e4aef2384f6c",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "5.5*7.0 - 2.5*7.0*6.0*20.0",
+      "float_expression_sha256": "295e6824083b65345f7e6d920b959fbe8c5027247799d36016e321fa161dad62",
+      "id": "calculator_0146",
+      "original_expression_sha256": "397a6d76a0a90d3990927db0f73a5807bcc4612e613e5555dd5526bde8ec9793",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "16.5 + 4.5*6.5 - 13.5",
+      "float_expression_sha256": "ef97fd22aa1b276952e372778def652c095188cf507cf60ece74a27f38884950",
+      "id": "calculator_0147",
+      "original_expression_sha256": "18071ee01824ba43ceb3760d0a131b7dcce3b7f1c3bb89e5ec8bfd70c63ddd16",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "20.0*14.5*16.5 - 5.0 + 16.0*6.0",
+      "float_expression_sha256": "f1667cd5a258c702005ac673ecb103fe39419e42b87839d563499e66c5db40df",
+      "id": "calculator_0148",
+      "original_expression_sha256": "756d2ee77e77b0420c9303fa7876971d6bc001bf65912499931aeec5d3dbb55e",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "13.5 + 18.0 - 12.0*5.0*8.5",
+      "float_expression_sha256": "156268ff4d46b81cbb93627baa1d31dcbd060f3950d2d901e08a57bd1119785b",
+      "id": "calculator_0151",
+      "original_expression_sha256": "4512aa2b377109b6c9385c94b2280b48588ce329509dfede99cfd48695ef6d63",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.0 - 10.5*9.5 + 18.5 - 18.0 - 4.5",
+      "float_expression_sha256": "121e13258f83c40fc8187d3dbc15e2c2d1a8405f4fd7d2d1a14f398142d136b7",
+      "id": "calculator_0161",
+      "original_expression_sha256": "18b4ea69345fe01a17346fcad7a14d60ea5f3af82590de0f033604b03444f263",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.0 - 11.5 - 16.5*13.0 + 8.0*15.5",
+      "float_expression_sha256": "fb2cd5ef629fc5c6dd7206af0568704a3c8e5724ed15deb541bd4e5879a71b4f",
+      "id": "calculator_0164",
+      "original_expression_sha256": "173842371165883a18f7db01a5289e19debb829cda8f0311f2ad586d37ecb3f9",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "12.0 + 15.5*20.5",
+      "float_expression_sha256": "620c1a7b932501a573418955754c56a8139f9609b76f4230c1561518e9ba1275",
+      "id": "calculator_0172",
+      "original_expression_sha256": "61dd3fac68256e81888b9514b06ede2a15a80075f2e35df9ffc919dcb9f8cae1",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "18.0*3.5 + 14.5 + 13.5*2.5*12.0",
+      "float_expression_sha256": "fa06d79f692a715dfa4a3842c75fb4bf902c88d3608b4901af9f4d3302795b37",
+      "id": "calculator_0181",
+      "original_expression_sha256": "25f2b3d8399d0064de6094267a3feb0d47b810cd04fc124e2b0d37a6e5f8456c",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.5 + 3.5*19.0*17.0",
+      "float_expression_sha256": "f772cc2285f90105d155fb5a93b7bc892c46970a4c88e724ac03d86ad3c2f709",
+      "id": "calculator_0185",
+      "original_expression_sha256": "e31e0b5bcd830ebb202721e4fd868e36863df7fb88cd6c64ea7fb9388dec3f52",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "5.5 + 4.5*7.0*10.5",
+      "float_expression_sha256": "849d85f72e77033a23a43cd04329c6b7c906252004ae38fe5171508cb4b93da8",
+      "id": "calculator_0195",
+      "original_expression_sha256": "1b6686592cba429166bed4958c0e63467fc43d8ed526ca18758ec3bd043cc74e",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "5.0*14.5 - 6.0*12.5*7.5*5.5",
+      "float_expression_sha256": "05196780c429735e7776153e1eb454612c2e9211888fbbc8769c227354a7fa67",
+      "id": "calculator_0196",
+      "original_expression_sha256": "f7948eff6ec88303ece3124b1f04354492c2e348cff86e5584ccc22676b74c7a",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "6.5*3.0 + 4.5 + 19.5 + 11.5*6.0",
+      "float_expression_sha256": "3981b9596d04a2f1f29b4ef9633c4e4b87d7dfe93bef84beba4de0572fcb5311",
+      "id": "calculator_0200",
+      "original_expression_sha256": "ef5d6a9a10f27dc5f99eb9b30cb10fad6feaa624fe12f8215acf94c98cf82a2d",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "12.5 + 4.0 + 6.5*2.5*6.0",
+      "float_expression_sha256": "e395104af487155b1b050d208596309be8eaed8bf6f1fb88f7d8e61ca5acc528",
+      "id": "calculator_0201",
+      "original_expression_sha256": "74997f507665c61442c866901cf0c382fa351858564f1bbc9b18fd1b81236771",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "16.5*13.5*9.5 + 19.5*5.5*17.0",
+      "float_expression_sha256": "413e2d96864b913fb3a40819e34350d862c0b5f95ce071455ffc0eabda5cde3b",
+      "id": "calculator_0202",
+      "original_expression_sha256": "3a00124ec040bd83c781290065036dc36d2de38c60cfda7df6124347c166cc7e",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "19.5 - 13.5*8.5*18.5 + 13.5",
+      "float_expression_sha256": "39e8cf01f5a332b2434e75814b60ed066d94140d1b419533703eca5f629d93d7",
+      "id": "calculator_0204",
+      "original_expression_sha256": "d5e474d2c74adb9c3d39a71858f2327055be0a6ac4bd8f6cf37927f79c74b4a4",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "16.0 - 3.0 + 14.5*19.5*14.5",
+      "float_expression_sha256": "75ab21db6ab02602604093c6ff4115dc770d5e8fdd56c5fe3b7ff594e3eb30e6",
+      "id": "calculator_0205",
+      "original_expression_sha256": "6f6502f28c0c6f49c7156d8ef6eddea72667dc5c3cd4a6c07f470021e3dcab5e",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.0 - 8.5 + 16.5 + 18.5*17.5*16.5",
+      "float_expression_sha256": "d410a5ba4b188e49e8b9a3b2472fee9b68d8f410d744a304bcbfe4006b524b13",
+      "id": "calculator_0212",
+      "original_expression_sha256": "6d4382b1947626f6e2a7ee59b16cad3a0d56dcf691cccc6ab585823015271a72",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "3.5 - 7.5*20.5 + 14.5*5.5",
+      "float_expression_sha256": "294ae62bec3390b6c6d83d6dbfb033bd734f8063cebfde085707242c7c01df6b",
+      "id": "calculator_0214",
+      "original_expression_sha256": "fa52b3a54ca4dd74c654b21e5b5182d1d62c3e41addc2c5b919bb6ea33b7510c",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.0 - 14.0 - 11.5 + 13.5*3.0",
+      "float_expression_sha256": "89a8b05d1597d7dd8bd3ca0095b0ed97c9815652083570f10f8d7b7c068db0d3",
+      "id": "calculator_0220",
+      "original_expression_sha256": "70251d4c00250e26145fec7793bd247cea1163f4be1642d5101f4253b9b22e27",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "17.5 + 7.5*17.0*17.5",
+      "float_expression_sha256": "2a37ea243ead1a933a28111300e32c3d1f3aab522908685759fcc34f6ea30b9b",
+      "id": "calculator_0221",
+      "original_expression_sha256": "1062bb51a7c89215c4494f7c10847494dd7fb0a55b4204714af460cb0cb74123",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "7.0 - 14.0*12.0*14.5 + 20.0",
+      "float_expression_sha256": "57e05d5b431a4f1059bc3fc50a59683327fc7f2b95b55dca59e13be5af51e27c",
+      "id": "calculator_0222",
+      "original_expression_sha256": "714815c65d1f0dc7307c36a5efebe55ff827c944407b860cb4241e4e419fe068",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.5 + 2.5*9.5 - 8.0*13.0 + 14.0",
+      "float_expression_sha256": "96fb93acd10e117be77469aa03ac66733454fb923a4c5dea6da2c4c095d4b2d8",
+      "id": "calculator_0223",
+      "original_expression_sha256": "2cc756516da3b3d7fd94aca53ef7e9c67098939f3220853973d6e6890cc131c2",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "16.5*4.0 + 17.0*13.5 + 11.5",
+      "float_expression_sha256": "8055e16227499b59aac2dd168efcafbf2780e5d6b14fc361d39b468b82cacc20",
+      "id": "calculator_0229",
+      "original_expression_sha256": "062f62f0bda5075eaddfa7cd2ab2afc5a6f2b2e6c1c0316142fa7e4051a4d9a2",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "6.5 + 2.0*2.0 + 12.5 + 17.0",
+      "float_expression_sha256": "a1f7fb5b55104c1d5f26de77222d6c362d26cf20044a6ca902ea5f85a1f86b43",
+      "id": "calculator_0236",
+      "original_expression_sha256": "2a8d0c8ee3ca26672cdeec1277a5b0f9e20a869ba11481a3e7aea46f1e2859e5",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.0 + 13.5*19.5*17.0*10.5 - 16.5",
+      "float_expression_sha256": "8c0e6ef86aa51b766553eb0eb628007c82e895d1d8c26abf3ad431e242a9fca5",
+      "id": "calculator_0238",
+      "original_expression_sha256": "6389908c255be89a9e2fbbfb51c270a8f8fc5363ac8423b6eba96612d6ac5d62",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "16.5 - 2.0*5.0*14.5*12.0 + 6.0",
+      "float_expression_sha256": "fb0d77d07fa8bb78945938ead378752490516ad5a8aa56bdb96805296e63a714",
+      "id": "calculator_0240",
+      "original_expression_sha256": "8977b70a534f4191259ffb637ffb96a833fc3dcc8af95b8d5dec17c5921aec5f",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "17.0 + 4.0*6.5 + 4.5",
+      "float_expression_sha256": "17a7711a2755de0579222c717bc78e17ac7573ba7bb2d83e75b4e52e23532436",
+      "id": "calculator_0241",
+      "original_expression_sha256": "f89f2782888b3589bdd34126890b19392f67eb8a6d9435657208a212df7e6674",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "7.5 + 16.5 + 18.5*2.0 + 14.0",
+      "float_expression_sha256": "428b3f4b8410d7cf842ceb8222bffc8b5235f9d4d426e4d953abe72ea51006f2",
+      "id": "calculator_0244",
+      "original_expression_sha256": "d13d59cfc6d3ea94c4389c0c64b3e52a76a33c7e9457685a2a51b23b9c7230be",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.5 + 2.0*2.5 + 15.5",
+      "float_expression_sha256": "c35b212f6ce43845f13f6f6ea667473b42ee9498decedf417d0dfaf5d9c1b3fa",
+      "id": "calculator_0246",
+      "original_expression_sha256": "e1c09a73d4d115f520507d662b40d27fedcae64216d5d18f0f9bee032539e048",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "13.5 - 10.0*18.5 - 15.0*2.5",
+      "float_expression_sha256": "a02ef55cb30af34a232406fdc3176d0c590d3fd7959c02052552f4c6230d2793",
+      "id": "calculator_0254",
+      "original_expression_sha256": "51650f9eaf18211cb97639cca8d17425b0c7ffac1455b9d417a23eba2ec81c41",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "4.5 - 18.5 + 19.5*11.0*16.0",
+      "float_expression_sha256": "37c635cad009e8ac6885073dee099628de07f9f013a5d97483b780a6480294ec",
+      "id": "calculator_0256",
+      "original_expression_sha256": "6d12c5f9ea20710710babb31800d5e6a68032e5c4b12be9d73f7c1e91dd43923",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "13.5 + 18.5 + 2.0*13.5*13.5",
+      "float_expression_sha256": "afb8b0f46651cbcccfecd6e81bfa13a76c9dac57210f30962def01b11414b7c6",
+      "id": "calculator_0257",
+      "original_expression_sha256": "69aeac66b2e8d840ee07615a6602abe8f318b1bb558abf06f0512ed08c643ede",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.0*14.0*15.0 + 2.5*9.5*20.0",
+      "float_expression_sha256": "81a146a330a92ced207ed3aa1f828674bd50e0af2d65721344d5c7f1710ab148",
+      "id": "calculator_0262",
+      "original_expression_sha256": "4a545eaaa2a8402a26c9796751497d18ce969a36423770a2c4bed6c0b843a3d7",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "17.0 + 19.5 - 6.0*7.0",
+      "float_expression_sha256": "a6e95696563c0a29565b5aa07a749524c34de56b4171eee64f43f529585c8d8a",
+      "id": "calculator_0267",
+      "original_expression_sha256": "6b3fd0f08e2e50da79f5bd4d87ab58001740ee67108b55fead44138f7fc3a463",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "7.5 - 12.5*16.5*18.5",
+      "float_expression_sha256": "fb7e571dc74d8d5ffe814b56ea8c0de8333ddf5fd072e2c9e25fd969f333264e",
+      "id": "calculator_0270",
+      "original_expression_sha256": "21c00f8e773f7fe69384cceefeb0b761f6042434667417db7f5946b0097e99c1",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "16.5 - 12.5*2.5",
+      "float_expression_sha256": "d90e9304fae140930ec2bff3a0b1b21831d8bc81890354330fa844c69fe69403",
+      "id": "calculator_0271",
+      "original_expression_sha256": "c4a991d7e113e01366bb0f2a27e77fd34fa43169749c988d0194d5bc02a9fbb1",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "4.0*5.5 + 14.0*6.0",
+      "float_expression_sha256": "2b72aa9932e8da19f04d42d91a8d46905ab7c20ad66d5787f854f787b9514be5",
+      "id": "calculator_0274",
+      "original_expression_sha256": "00b0170530e25b5edf45583b92308dcb99acab8b69ad1b51a08004b57dc244f4",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.0 + 17.0*18.5 + 17.5*9.5",
+      "float_expression_sha256": "b3a3b4285fc5174735b340ba92aa83b181fb8c588845ad8dd02dfff3c8970599",
+      "id": "calculator_0278",
+      "original_expression_sha256": "52112bd7f5dbaa0f54a96a83569e133fc59a95407ad8f632cae270ead2efc43f",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "13.5 - 12.0*2.5*15.5 - 13.5",
+      "float_expression_sha256": "f97a028191410c7eda38b78437a82a9ac9f0dfc33b783db3b6a99ab2ac2095d0",
+      "id": "calculator_0280",
+      "original_expression_sha256": "bf787d187cfebeaf1427a9b92dd5cc110a7eaebeb75ddb7dc3bc326643d510bb",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.0 + 4.5*18.5*18.5 - 15.0*20.5",
+      "float_expression_sha256": "80a19e83ac947d27ed7a5856cc37787b005ea782a0898c03476d9e4df7d7e5d4",
+      "id": "calculator_0282",
+      "original_expression_sha256": "8ab455ba3d8a423eaa59711a1e9c6916bd8964cae288a72dbf7d720ae98dfe79",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "8.5 + 11.5*16.5 + 4.0 + 17.5",
+      "float_expression_sha256": "945907966eca99c57f36d519e95ccb5969f3e241f0b20ae07b1f30eb061aee10",
+      "id": "calculator_0286",
+      "original_expression_sha256": "17cb483814b453eac6429c9a5af1cab29e299059a50c0d07619bbc13d6faab92",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.0 + 8.0 + 19.0*3.0 + 16.5 + 16.0",
+      "float_expression_sha256": "9d8e8787d0965ddc968dbcbee013ffdf889047bb774d9c87b384abbdfcf83c72",
+      "id": "calculator_0287",
+      "original_expression_sha256": "1b2de24b36b142bc9432d1b31344549c5b45dce94c7e6de0b7173122d514565c",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "10.0 + 14.0*20.0 + 20.0 - 10.5",
+      "float_expression_sha256": "38cd996d37ad09b99219177152573b9eecf10587147028dce15b835fd2ee379e",
+      "id": "calculator_0296",
+      "original_expression_sha256": "cbaf0d447f811cb4371c0945259f990e2b28d124ac22709981d42e24625eb0a8",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "9.5 + 19.5*3.5",
+      "float_expression_sha256": "8fdd7903aa9628b762b1183b1f3e6cb710af6f9e6ea7312ec30fa80008e54f0b",
+      "id": "calculator_0297",
+      "original_expression_sha256": "8bacf7eced8926d400d834a09406cf2d4f45396218994ec01fc862f7efdac6a1",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "14.5 - 13.5*4.0*5.5*4.0",
+      "float_expression_sha256": "4dc28766a7650f2767e09c6dec934606249198545e47acdad4e892331b45e944",
+      "id": "calculator_0298",
+      "original_expression_sha256": "7a934a3f83f954d0e2632b17b2b24eff5a391a970f2f85071352b254af5bac9b",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.0 + 9.0*19.5 + 8.5 + 19.5",
+      "float_expression_sha256": "bd1df1a343dfd0e9f39f45c5a1b7829ca74b5e8334125accd8d63abfd87f3a27",
+      "id": "calculator_0301",
+      "original_expression_sha256": "25841bdd8e1636162373e6740b170bc53a5f5a8088be9d0a9e5d586c3cbf9648",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "5.5 + 18.0 - 4.0 - 2.5*3.0",
+      "float_expression_sha256": "09c6f69f3a69b08742a09bb50ade070a4b851e3c4c006cecb1c4a2de86c96f61",
+      "id": "calculator_0302",
+      "original_expression_sha256": "01bb8fa94767cb0cdfac8514ee3ea54467446dc899761ad3bb9e5e5ca2c3906d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.5 - 11.0*14.5",
+      "float_expression_sha256": "b0212dea1db480f025a8f297b8f8efa20542375c70d2d8839f8aa337c60ec5e8",
+      "id": "calculator_0304",
+      "original_expression_sha256": "482339ad500d2c832b8ac03ea1c994368b807cf0a141f7ef5a54992acae24d25",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "17.5 - 18.5*13.0*4.0",
+      "float_expression_sha256": "822c3a099d2031a132dcb56a3d6d1572a17e9ea90d4f47b70c662ef8b67b2b78",
+      "id": "calculator_0308",
+      "original_expression_sha256": "ed0da947caf9027994adecbfa5ea020aa515c8bab74fef297dce66cb710c34e0",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.5 + 18.5 + 16.5 + 17.5 - 19.5*15.0",
+      "float_expression_sha256": "28b06ebd058e717a142d1a0b1c60f13b083c224d7fa226429efab96e38823d15",
+      "id": "calculator_0310",
+      "original_expression_sha256": "51231836b4034a56b3dd3cdaa09e297906e30e26da03b02627641a9f002167db",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "7.5*17.5 + 13.0 + 2.0*14.0*2.5",
+      "float_expression_sha256": "fa9787a019bff420157517356eecfc11793ca176bc5707f7d7033b46c3a90f16",
+      "id": "calculator_0313",
+      "original_expression_sha256": "b0b61440a58285bef55112a2aae7ac0a0696ebcb9df8d4e58cb368480aef112b",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "9.5 + 2.5 + 2.5 + 16.0 + 13.5*6.5",
+      "float_expression_sha256": "3637e2d32ecd0139f2c3b3cd247f035919b582ae8df1031eef9b4b2a25ba4113",
+      "id": "calculator_0314",
+      "original_expression_sha256": "2eb4ab890fd7f4dc93483215455296a48a7a811a6a5361cd649ed4168d7261d0",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "10.0 + 15.0 + 20.0*12.5 + 3.5",
+      "float_expression_sha256": "66cce08b272a0860c7bfdc6c189007af37b2424a6c0a17aae5180be74db31f60",
+      "id": "calculator_0317",
+      "original_expression_sha256": "3c019a4a52ce17cae6ef635e9a38be5412aad90c3fbf6420c2784e04e7ab1f5a",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "3.5 + 5.5*17.5",
+      "float_expression_sha256": "4c061c55e3d5cc071931dc0148a89f9231557f1004f6f9b370963a47991bfd3e",
+      "id": "calculator_0327",
+      "original_expression_sha256": "940a4ba646b703e186343085125c4560178fc543e193b60933e7dbf7de097e5e",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "9.5 + 2.5*12.5*18.5*4.5",
+      "float_expression_sha256": "a2fcab9e5f356a19a46dc1b198a41062e1f27f16605a71322c761fde15435fd1",
+      "id": "calculator_0328",
+      "original_expression_sha256": "c84d630a9184499b873b7e50dfed8a1c42c9e1d1d2f79765bd9db673c56aa168",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.5*15.5*2.5 + 17.5*12.0",
+      "float_expression_sha256": "28280a9a930d3cd796f2d51448a526fc132a6cbfef5a398706deaa3fa27354d2",
+      "id": "calculator_0330",
+      "original_expression_sha256": "fd871efbab98b2bbf5858555b7478c27be5eb0b9e1de60d2cf26df400a59cc85",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.0*13.5 - 6.5 + 8.5*5.0",
+      "float_expression_sha256": "ab6fa2f623914cdebb630d5fe10231e3ee0fea4c7fe5dc73da302480c3a78e56",
+      "id": "calculator_0332",
+      "original_expression_sha256": "680b8f3236ebeb3ab31ff45001425751a6e15962fba2cfa0c286874aa56730b6",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "20.5 - 2.0 + 19.5 - 18.0*8.0",
+      "float_expression_sha256": "73f8165e07605a64fac544542c3c59a1271be4ebac693f7548d2ff0258fd11cb",
+      "id": "calculator_0336",
+      "original_expression_sha256": "024020e81544f8119b566bab5b71c0d496802eb5b7c40b26e90f825fe3cde9c9",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.5 + 10.5*20.0",
+      "float_expression_sha256": "0d2018c7836de2905fc140713c19b9778d489474bcf84b85b7394b67607fdd36",
+      "id": "calculator_0338",
+      "original_expression_sha256": "459eb21f1968dd034825f1f5c28441f4ff26947b3d8618eb3768a04b76e58f09",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "10.5 + 12.0 + 5.0*12.5*17.5 - 8.0",
+      "float_expression_sha256": "62b4a16aff6840551aba4b02bb4e787afbceedbd8ec9f987c3d182535ea19a0f",
+      "id": "calculator_0341",
+      "original_expression_sha256": "c90ddc64ab0f20bcd6a3c5ee0c1991abf0efe87fe53f0ecdc122093e72086c29",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "4.5 + 2.5 - 13.0*5.0 - 17.5*7.0",
+      "float_expression_sha256": "503027dfe6ed8fe77b81e06f8566b5b345fc78b7c25087d683c64355135ff926",
+      "id": "calculator_0343",
+      "original_expression_sha256": "3fbf3f15bf128e4fe91d05a2142d17e8f905f4a5ca2780ea37e6da388a71926a",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "16.0*9.0*16.5 + 12.5*4.5",
+      "float_expression_sha256": "05daedca8f518dbc456ea8b04fcbea604540b9890885d838cbb10f5a0eae2599",
+      "id": "calculator_0346",
+      "original_expression_sha256": "ac240dcd7582768f0f53393ecd752ff53ee816d865ce5c53c88f776cf1eb2e75",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "20.0 + 10.5*6.0*4.5",
+      "float_expression_sha256": "e037b9b238acf3a04ceaaf22b083da1dde42eb4501483d043433f29acf1216a2",
+      "id": "calculator_0349",
+      "original_expression_sha256": "87c4d31f50659d3ac041f6bddb183ec84e98eac096087e34b97d1f00bf3027a2",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "6.5 + 9.0*3.5*15.5 + 3.5 + 10.5",
+      "float_expression_sha256": "611c63e4161ac10b4fa9fb3ab177da5c107703aacfa10e7559d89061cdfd1f3a",
+      "id": "calculator_0353",
+      "original_expression_sha256": "ad182dc3f143b1d00d9ee62603a0e2f9837f0df6f06a602b8bba36c3765310b6",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "8.5 - 20.0*16.5",
+      "float_expression_sha256": "0c21b47d6ac62376739ef226abbab69f72d6dbd206c0336d23f84fb3627b11f9",
+      "id": "calculator_0355",
+      "original_expression_sha256": "6e14a3ad9b2580efe0719e00c77dda0d2a0e658f4d9879f0f6d0311d09ab6fab",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "9.5 - 16.5*8.0 - 17.0",
+      "float_expression_sha256": "7fdf9c50041583de795910785b1d5f8e67f97e3c8b6be0dc35c6ae6a97a30fbb",
+      "id": "calculator_0356",
+      "original_expression_sha256": "f9e2f516815135d58c8902b60e61f805770ed39bf14502f4129535a0411e26cd",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.0*16.5 - 8.0*11.5",
+      "float_expression_sha256": "19d648d1bbe6130728545f13d0bc4dbf20f658f33355d4d3ef34b902b5b763ac",
+      "id": "calculator_0357",
+      "original_expression_sha256": "1966d68e4b05b434860b91daedc65a61fb2f3c9d33ff23ee299f21227ad2a7f5",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "3.0*14.0 - 4.5 + 8.5*10.0 - 10.0",
+      "float_expression_sha256": "0b50e5c04283a5c63f5d13e710c2805c0dcbda051b50f6b0a18d627a46dceb7f",
+      "id": "calculator_0361",
+      "original_expression_sha256": "baaf34eb3c86895d063fa7ecec50f920dba5277b38a82ce2d862b6b6cc6992b2",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "2.5 + 15.5*9.0 + 8.0*13.5",
+      "float_expression_sha256": "5dfdfc96d040b6849ee3fc56ead101c6dcc511e1b6cf0d444bc085d08a91ee7a",
+      "id": "calculator_0372",
+      "original_expression_sha256": "4ed044fc7e17285308bf5dde3c0e5920098d0359a24db77dc834d3e1ca372106",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "15.0 - 15.5*9.5*18.5*12.0",
+      "float_expression_sha256": "3fcd359d27c0f2b49bceccea4d1a21765d0e5e2feae2928cd29da794066c647f",
+      "id": "calculator_0384",
+      "original_expression_sha256": "322ce3bdd4e60179e0b5991d9128377c45df0bb4aa5b6e40f22b4171386fcf53",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "3.0*9.0 - 20.0 + 11.5*11.5*17.5",
+      "float_expression_sha256": "cf2208aa091852ae8944854cbb7c97b844776de9e9807c98995a8dec3b4ead9b",
+      "id": "calculator_0386",
+      "original_expression_sha256": "3cc5c351e7296a3a95dcce6472a8a0ffbc777c98cce67a408b97066bb220965c",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.5*17.5 + 8.5*11.0*10.5 + 5.5",
+      "float_expression_sha256": "bea1571f27944d1cfac3c8b633e5e3ea98c49970ec90c751fac13568c717475e",
+      "id": "calculator_0388",
+      "original_expression_sha256": "b195e110b393f8a208ebaf2d61c326b485c29fc0a4914acb33415d2390ff4cd6",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "16.0 + 16.5 - 16.5 + 15.5*8.5*15.0",
+      "float_expression_sha256": "d95aca6ed59e72547e961a66f59c5503679f77e12b8d30cbdace0c72f1d039df",
+      "id": "calculator_0395",
+      "original_expression_sha256": "7a88d330f8d3dc48c0aca65128c70f1b8d8c6eda66568aed5fff60461f70957b",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.5 - 16.0*13.5*18.0",
+      "float_expression_sha256": "ac242361e68b7fb4f69ba2733e48eddac25bb964804b3769cdce21d74113cb73",
+      "id": "calculator_0396",
+      "original_expression_sha256": "bf179634d1d0202aac90527ea7a26e0fab8a086d522574cf39584af52d2072c3",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "9.5 + 8.0*6.0*8.0 + 13.5 + 8.0",
+      "float_expression_sha256": "930f0ab16ffbdb6bcd247a38be444e20d0625d1d8a9fedd273b43d3847993a31",
+      "id": "calculator_0405",
+      "original_expression_sha256": "6ad04e9542888240705c3c91ca5f45f38938211e7395f58f98e8d8cf7d7adb79",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "17.0*6.5*9.0 + 9.5*19.0",
+      "float_expression_sha256": "c746cf6e072bdc701981d7211ac7b6a495e7827cb863d37c98163e66c97d7538",
+      "id": "calculator_0412",
+      "original_expression_sha256": "567fa7311c170ec3f4b9bde6663aa25557fa9b89a63ae80939f4f75a6180cc58",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "20.5 + 11.5*5.0 + 12.5",
+      "float_expression_sha256": "d6671d5bec413e6bde9a3c7139b5742232c1bc9692f74b978ee3aa63cdc79fac",
+      "id": "calculator_0419",
+      "original_expression_sha256": "2349bdf93710334bd8b3f3b140d6daf18d0b651a6fa9f251111937d51b866423",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "15.0 - 10.5*14.5*5.5*10.5 + 2.5",
+      "float_expression_sha256": "46b71ebea5b923149c9fd6f5d01ef095ce95e15b35449de8629632b07702887b",
+      "id": "calculator_0420",
+      "original_expression_sha256": "6ed7ae1c2f6471d8b221a036b17858a352201603fc6b78dabb38bda589566d06",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.5*2.5 - 7.5 + 6.5 - 15.0*3.5",
+      "float_expression_sha256": "c9017190c4c9eda43f9175fa45950ab2aa4145acb135937527ed09fbdb135905",
+      "id": "calculator_0425",
+      "original_expression_sha256": "8ade21bf6c52e3534790593dc47da1445f37b3852c4980c26ca911477db8a015",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "9.5 + 7.0*7.0 + 12.5",
+      "float_expression_sha256": "dd064df465ad97510fd7c27c583776a19076774f8afc021fee4b5c90d14f1f3f",
+      "id": "calculator_0433",
+      "original_expression_sha256": "8e8802ea486b68efcc502d658dd2a524201c5649e78470630cd6024880873a5c",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.5*5.0*9.5 - 2.0*6.5",
+      "float_expression_sha256": "26925b12e5343f6443109dd47b80306115f3aa503fa45d1562f231fdbd956e6f",
+      "id": "calculator_0438",
+      "original_expression_sha256": "548b69da04ed0fcf7710f421ee362a5de3f6d64c5de145c41ad9bbf6c12a51e6",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "20.0*14.5*4.0 + 17.5*8.5",
+      "float_expression_sha256": "8ca2185a91d806831dcfd8a28e027b4f33beb7020d6532ab531187ac9fee5a84",
+      "id": "calculator_0446",
+      "original_expression_sha256": "6b1afd4e7bec2743fd6a4cadbf5b5eef457c8c44eee73ac64f6cf14d06d55e20",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "9.0 - 15.0*14.0 + 11.5",
+      "float_expression_sha256": "13c056e7f202a726d30d50cb6348a3691f9b8907cc0b598bc4c2e328b4fd9f94",
+      "id": "calculator_0450",
+      "original_expression_sha256": "ebaaa24de88f3f89425e4efe239a0e67ed0b8376178c6189df4e27ff8db066d4",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.0 + 6.5*4.0",
+      "float_expression_sha256": "8ea994d88f47b26587bb24a16ed139ecbb9899663a0d6cb6786860cf341143ff",
+      "id": "calculator_0454",
+      "original_expression_sha256": "0664818dcb1e6f8a0c84b5cc1ee6b786e9b4ff151075fa9ef2809bd60199528b",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "19.5 - 15.5*14.5",
+      "float_expression_sha256": "08d785efb1466e510bc70592aac998f775d1c8cd8a591fc0782fc914ec28c4cb",
+      "id": "calculator_0459",
+      "original_expression_sha256": "7ec3e15fcb56ae4e0e348ca396fef9bca5f3c780f8980f2852cad1c28d0ebb9a",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "16.5 + 15.0 + 9.0 + 3.5 - 7.5*14.5",
+      "float_expression_sha256": "3f1f7da5e5b996e3b94c4366286c50145302eec257ff6dbca2ab9ede8e876656",
+      "id": "calculator_0461",
+      "original_expression_sha256": "3ff3e886162c241265ab1d90888e82cafd9f7620a1ecc8cbdf16ac55092f6d68",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "7.5 + 6.5 - 5.5 + 3.0*5.5",
+      "float_expression_sha256": "6931b428783e71677cf3b873e5170b59dbb5490d8eaf80794af7c9271489aa17",
+      "id": "calculator_0467",
+      "original_expression_sha256": "7bc03e869dc7b190a1c261f3faf8ad111cd64be3f84a40ccaeac31cdcf938e2c",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "16.5 + 16.5*11.0",
+      "float_expression_sha256": "efdaa7d69c6ae8cabc01610df00b8cac78df29390b508c60e25ef40b610cbe89",
+      "id": "calculator_0469",
+      "original_expression_sha256": "2cb8807725275b6f31c6db2f8493520bed97d26c65211d260126b9c230fdfebb",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "18.0 - 13.5 + 19.0*18.5",
+      "float_expression_sha256": "4986d06456ad26cbd30dcf7e07196289151c325c8c94f6897981a8947462e59b",
+      "id": "calculator_0476",
+      "original_expression_sha256": "e126beaa59f8b067b9a3031575afb7bba3b89c295b3df256afbcb87dd51a506a",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.0 - 11.0 + 14.5*5.5",
+      "float_expression_sha256": "c1830137423a04b9aae8c7e6c4b5b87a3e1274c91632db817b515dbb4a66d719",
+      "id": "calculator_0478",
+      "original_expression_sha256": "5612fa090975c4d1bdc78374cc1cdbe25860c7181f0bfd423253e3719cea084e",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "5.0 + 13.0*4.0*8.5*9.5",
+      "float_expression_sha256": "56682bc38682f96707d1281cbf3142c873cc006b3efea5d404a0abe6a492fdfb",
+      "id": "calculator_0484",
+      "original_expression_sha256": "09f88556330f7ea3ecc775918e8f0928a58fabb1c0ff88004dbb23ab1991e92b",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "7.0*3.5 - 12.5 - 9.5*15.5",
+      "float_expression_sha256": "b858e16996847f68e36f6d543c757f76c60f6295322d1814f5cc095775691fcc",
+      "id": "calculator_0485",
+      "original_expression_sha256": "a4ec55212793ef62f25a820a7de25476bb5019f58383c6fe3df83e876aed42ea",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.5*12.5*9.0 - 5.0*7.5",
+      "float_expression_sha256": "0d769263612b42c64ddb0cf696ee590bc00f3609be2dc2c445694e086f678f73",
+      "id": "calculator_0494",
+      "original_expression_sha256": "81ddea73d54c7f94ea32091e23a290f1025a97fd77f645c4bf69b4a9fed0870d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "6.0 - 12.0*4.5",
+      "float_expression_sha256": "4ee120b23233d68fa4cbe57dcbd5920f16f60aecd9a8f4b2f683e3be4b2fc6f8",
+      "id": "calculator_0504",
+      "original_expression_sha256": "d6d450caac18a007105231b8583056579f8bfe24803ea3b699e4b2ce27db829e",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "16.0 + 15.0*2.5*20.0 - 3.0*7.0",
+      "float_expression_sha256": "cd53008dd23fe6fcec1457c21d7667d4984aec670d14008f6ee0fe3a78850968",
+      "id": "calculator_0507",
+      "original_expression_sha256": "53b8bdf9fa87dc38edb7fa2070f7af0ad3aa34606ffefbb721e22349249dafb0",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "20.5 + 15.0*13.0*9.0 + 11.5",
+      "float_expression_sha256": "8367246de7716bf44388a58b16860259aef6322e22a94f2becfc32f007bfe3f4",
+      "id": "calculator_0511",
+      "original_expression_sha256": "717487def87ae559b3041468f062ef5baec3f187454ed26f6cbb9da08a4bbbfe",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.0*4.5 + 6.0*15.5",
+      "float_expression_sha256": "3165ea2fb20cd31a39aa2238b6b920e2390f6b72c94e8394439aed0ee6631555",
+      "id": "calculator_0516",
+      "original_expression_sha256": "f82987cfb5a2b5f41ae9aad7497b2d050a16c965bf502c700a5084eb83636402",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "16.5*16.5*12.0 + 3.5*4.5",
+      "float_expression_sha256": "004e9450ce43f8e7c1d0b9164d280566cc15a99caf799074f8fdacac0beeb0e6",
+      "id": "calculator_0519",
+      "original_expression_sha256": "e66ade1cb44a1cc52a85454f6a87932dd22ce34febc40b2e7b11236745e1fded",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.5 + 2.0*19.0 + 15.5",
+      "float_expression_sha256": "d02feae93ceb6231b300e0af1122df1ae0a070f4077ff014debee74735071d72",
+      "id": "calculator_0532",
+      "original_expression_sha256": "97fbad9f442052081dbebc7c58a0e5b9d57f667701611bbebc4d563d2456e324",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "16.5 - 4.0 + 13.5*9.5 + 15.5",
+      "float_expression_sha256": "4e7c4c809939d466dc1bf39dcae50e5df1021287957a2c3681b5b96756b1862a",
+      "id": "calculator_0537",
+      "original_expression_sha256": "0ef2a0358450be67c7460b06252b0a07490c8217b0aff79d3411d5cbbeddf187",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.0 - 3.5 + 3.0*14.0 - 19.5*20.5",
+      "float_expression_sha256": "cfebfa85a4d713aad1d2f01c60fd25c0177356c0631906c4d8d6b473aff65d41",
+      "id": "calculator_0540",
+      "original_expression_sha256": "2a5ad2fd5a0526bccb234171d1414bd55ce98acc9f10d1d7a4058d96dc9df41f",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "5.5*16.5 + 2.5*2.5*3.0*18.0",
+      "float_expression_sha256": "3e3d96fedbd8b800b2b23d744c4a2386aeaa359565c3045bb3ebd6030bed9766",
+      "id": "calculator_0541",
+      "original_expression_sha256": "27346e6fd63a8bfde54690f4c6dec0aa5320623a1e2e11155accf970c1422bc5",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "9.0*17.5 + 14.0*19.5",
+      "float_expression_sha256": "4dc8f0a52ddf8e9733ea8bc34e7f028f0d95e1b65851bf9f6d48ae88707165a1",
+      "id": "calculator_0545",
+      "original_expression_sha256": "839387b5f9e42986be4f43c2655d55921dc5694d9cb1ee8aec4cedd25957f3dc",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5 + 15.5*8.5 + 15.5",
+      "float_expression_sha256": "2d22cc8fd0b3c9f6f67c41c743e4e3e3727915f08cf846f46592c194c15da71d",
+      "id": "calculator_0546",
+      "original_expression_sha256": "fc2095d60b65ac87b9c2f1083d31d0dce376180b84f194e6ce6f1fe23a7d93fa",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "13.5*14.5 - 5.0*15.0*13.5*14.5",
+      "float_expression_sha256": "479aaff077324ae5dd4f2d4a2cf393caa5fd0307414186b9d9f5e68f9340d3b4",
+      "id": "calculator_0547",
+      "original_expression_sha256": "98ed55a058e1654cbfc38aca488b0e3f877b2caead7fabfea3de801332a85273",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.5 - 6.0*5.5",
+      "float_expression_sha256": "b24b5ab2f571aca79e541c00ec9dba9c680e0ae9fea77ec2496e7ebc3e9cc3a2",
+      "id": "calculator_0549",
+      "original_expression_sha256": "a00318122788d2339c248546eba0a32f4277f3b0598963dc748b425bee0b5b91",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "16.5 - 4.5 - 18.0*8.5 + 2.0 + 13.0",
+      "float_expression_sha256": "81438558993a7f1faa58c8d0f813a6b5382fa5aba32ea622c2c7ae447a4c1d81",
+      "id": "calculator_0555",
+      "original_expression_sha256": "6ae80459415196bb2549c4eb910a41aa111930ed1fffdd4ea399c432a5a214d3",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "5.0*19.5 + 4.5*6.5",
+      "float_expression_sha256": "28dab3aa62d20e71f759211618e61228302bfeaabd3310ca389145da05a89c6f",
+      "id": "calculator_0561",
+      "original_expression_sha256": "2bfbcbb14b12688fda29efaa2e28ff308f75145c2cbce18a76c45ee806856ed5",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "17.0 + 11.0 - 12.5 + 15.0*8.5",
+      "float_expression_sha256": "d94f2df42328aa7f5d2cc60ff5b8fd3e72b77296da0a120bafa1b612d13642fa",
+      "id": "calculator_0565",
+      "original_expression_sha256": "826df56b61efe00d63c5af1c7cc482263efe01b489acc84f9e4f62739a194675",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "9.0*2.5 - 19.0*3.5 + 11.0",
+      "float_expression_sha256": "20a553aaa1c5fdf975453abac2c10dd466a9bcda1c75c838897b8895a55988c5",
+      "id": "calculator_0568",
+      "original_expression_sha256": "e092a91ecc3dd5582ad883860fa2d963697a26f9c09a51ecfa67e192faf9a8dc",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "3.5 + 11.5*11.5",
+      "float_expression_sha256": "de7bcb84eb42798eafd6417328813674064e61e139a459e06e7745748fbe00d2",
+      "id": "calculator_0570",
+      "original_expression_sha256": "3c05bad4d13cf29901bd48fc18f78dedf8169e99a8a670983fa4eb63faae07c1",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "7.5 + 3.5 + 18.5*2.0 - 17.0",
+      "float_expression_sha256": "70ceae46d9b3b3fd612c97f63f4969e78703dc6ed0162f5592138e9259c3d863",
+      "id": "calculator_0572",
+      "original_expression_sha256": "6e6a6b278ffabf7f5fa68fa28999ce11df558e7cc132b40ccdf496f760728f39",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "5.0*14.5*2.0 + 17.0*10.5 - 6.0",
+      "float_expression_sha256": "57fd4e18cc954fa8c533c3227cad41a0c0fde05a01f3ff3c18af9290ca37661d",
+      "id": "calculator_0580",
+      "original_expression_sha256": "449a4dc9ae9251aa0a5058d476d53c0efbba8e09365262f2db1d46ca12030648",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "15.5 + 9.0*17.5",
+      "float_expression_sha256": "a66bc077b5ca09944a4c9a8cabda4a6fae11b136ea5a3a79e1d36fe0704c4695",
+      "id": "calculator_0583",
+      "original_expression_sha256": "8cddc943265f27b3011a94d682b6cea3dcc3a2eebcef5d4b4c0ed4f91810eccb",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "19.5*10.5 + 18.0*17.0 + 5.0",
+      "float_expression_sha256": "1347c924afed8a7721786360999197aacc4d4b88422dc1e1c199f007fd3ddc3b",
+      "id": "calculator_0594",
+      "original_expression_sha256": "c4f2a656ec7c5e1146beab39c6ec57d173895040d27be4710914793b74a7af89",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.0*14.5 + 19.5 + 20.0 - 9.0*20.0",
+      "float_expression_sha256": "fc0cebb20aeb72994391a163e932f1da93122a4a627bbda48682f124d6349328",
+      "id": "calculator_0601",
+      "original_expression_sha256": "c8b50ea597fbf2bbc4f922f80725e346b65d68d2121f6edfb501b13d21529d73",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "10.5 + 15.0*17.5",
+      "float_expression_sha256": "3f565153f316a8c8e16d7b0173daaeeb419583de5e8431ede8eb89893e98cf15",
+      "id": "calculator_0605",
+      "original_expression_sha256": "d8d2cdf62a55155220994af2e1011af93458fcd6a2b6628d53dc8df9b2bab54b",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "4.5 + 17.0*9.0 + 7.5 - 6.5*18.5",
+      "float_expression_sha256": "bf137550ccd8d757299705a41598985857f4758cfba438652347a2c8ae29b5e0",
+      "id": "calculator_0607",
+      "original_expression_sha256": "479ac344e0da3c0435d44a871ae597a755725da3c0cf2572dbbe8eac1907eef1",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "5.5*17.5 + 11.5 - 19.0*7.5",
+      "float_expression_sha256": "7bf8add253638586db6ae33fc154e2cb9cd9abe5de966ceeb9e9f659ee0b7487",
+      "id": "calculator_0608",
+      "original_expression_sha256": "e9cc9191f75cd7ce6ff107904b1a70290f142489c3ffb370687b29de6316f30d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "14.0 + 19.0*8.5 - 4.0 - 2.5",
+      "float_expression_sha256": "e7dd053f7680476b06dcb9b0d62eaa31a2a0a9fb487511a034d68e9e9fd95c40",
+      "id": "calculator_0610",
+      "original_expression_sha256": "d6c171173e53cb24cddb09181fa654ffebe1eb4d9179c53695cb7cd885844d84",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.5 + 4.5 - 20.0 + 14.0*14.5*5.0",
+      "float_expression_sha256": "ec21b2a04bb4451840431810dd5cbd36c79bc640aade304b936b88b79afe2539",
+      "id": "calculator_0620",
+      "original_expression_sha256": "45421d1433c357f31b48d4f7be13f1e2985ba83f4ad7e80e09f115d189bf11e1",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "11.5 - 12.0 - 10.5*3.0*2.0*11.0",
+      "float_expression_sha256": "52853e9a2bd9042aeb505a990e17ae449c1696b0ac1246e61a4cdfa363d65b7e",
+      "id": "calculator_0624",
+      "original_expression_sha256": "d7801b2b14621c08108f3785ae50f2560445709e1c0d91471bb8f11fca39d6fc",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "17.5*4.0*13.5 - 18.5*14.5 + 10.0",
+      "float_expression_sha256": "eeb3924b749fcef8c0ad9c119f6c8f84c1ddc551609efad1bf5f19b7a79986e2",
+      "id": "calculator_0631",
+      "original_expression_sha256": "4b375921b22deca5e8fa69bb3aaab6d29e17cebfd1d2d1c1578445bc1da988c4",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "3.0 - 6.5*4.0 + 3.0*18.5 + 2.0",
+      "float_expression_sha256": "c16764bd8d21f26f8ca385454833e0b48052b777dc18aca4355964b45605b031",
+      "id": "calculator_0639",
+      "original_expression_sha256": "af6837a47b816f3babaac7b768e1f5bf71bb6eaaa3c99b2b3121d4b441e7ea37",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "19.5 + 11.5 + 3.5*20.0",
+      "float_expression_sha256": "bdcd8136de893227d8c7f0be4e5b8a62e28e20c4fc355eec8556ee17fe7c2e68",
+      "id": "calculator_0641",
+      "original_expression_sha256": "22cfa241f12271bd695598735a3e7f0757e6d956a52fe4e4cb38a6f7df5a0eb3",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.5 - 6.0 + 5.0 - 13.0*2.5",
+      "float_expression_sha256": "e45ceb25f04d88e4952606b2222586cb46d4cf1b685af77710dd2c83a85fe485",
+      "id": "calculator_0645",
+      "original_expression_sha256": "23c6a5879ef98b919655946ad4edd235042dfdd9d6bcea12235dc2e777ec5b38",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "7.5 - 10.5 + 14.5 + 4.5*20.0 + 18.0",
+      "float_expression_sha256": "2d23098cb36a19379b98d78ffd493f5a002402addb07e6c80984f594be13f5e3",
+      "id": "calculator_0646",
+      "original_expression_sha256": "c2f991f97d0f0e0eddf3830bd3d0a0f7aeb31de7715c54c2497b5a0587d59bf5",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "16.0*18.0*13.0*8.5 - 17.5*11.0",
+      "float_expression_sha256": "a9a8ea6efd7d22560c61352315ac57f8769e24ff2ec85c7dd667926082546755",
+      "id": "calculator_0649",
+      "original_expression_sha256": "3c14c493e243d5544c3249a4febba749ef345ff4688b8a0205439f759968b7eb",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.0 + 19.0*7.0*5.5 + 8.0 + 7.5",
+      "float_expression_sha256": "0baeab281648b61984d1577d35ea0f792607cee902d819837cf7d176e67be821",
+      "id": "calculator_0650",
+      "original_expression_sha256": "493cbd3ce0f861e12e34d1f646b5ab36002e91f8b2ae0059f5ac7472185653e3",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "13.0 + 8.5 + 5.5*4.0*16.5 + 5.5",
+      "float_expression_sha256": "070c2bc86b772bc1ca1283899a6a183b5f3e3d7cc3aad0b5b71b66de164553e6",
+      "id": "calculator_0652",
+      "original_expression_sha256": "b63ff03a88d2c1644ba6af7dcae51f3e043de47ae23f25364285e542f003cb34",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "13.0 + 19.5 + 19.0*10.0",
+      "float_expression_sha256": "20ba266942abfcea536806bddd77fc32f4dd52efab1c881ada1fb101e81115c7",
+      "id": "calculator_0654",
+      "original_expression_sha256": "4b002f1fd43092e5c3b60ba016739c29cd4bc453ac3056c4e301e3028140f931",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.5 + 13.5 - 11.0*17.0 + 13.0",
+      "float_expression_sha256": "03ecc1d8c43121b8ae49b6567cf64e2be769e3a7ca73d0fd67301874a153fc01",
+      "id": "calculator_0656",
+      "original_expression_sha256": "0431150fe17af009c5f013f310ebba4ac00c8c3bededce0e0234549aaa17ee91",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "4.5 + 14.5*13.0 + 19.0*17.0*20.5",
+      "float_expression_sha256": "54aa47a905e12714c04e53257fb26c3729aeceae36bb980f2d21f40826ae7d67",
+      "id": "calculator_0657",
+      "original_expression_sha256": "a0cd5ca9f361d6beb25634cca17f2d54b12e6e6b2588038dff682da7a5b798a9",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "13.0 + 19.0 + 8.5*17.0*16.5",
+      "float_expression_sha256": "838353a26ee0f21c0d99c9319b55d872a7b9db2f1d3a7455d611a0a067ea8f30",
+      "id": "calculator_0660",
+      "original_expression_sha256": "efb250478fca61edf9b74a247559da96306bf31e24f567c96dc71dbee6fe2511",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.0 - 20.0 + 11.5*5.5 + 11.5 - 16.0",
+      "float_expression_sha256": "a53bcd49468954481f7aa74924865f14750cb1f3256ed71e9c56c173d8a7de86",
+      "id": "calculator_0661",
+      "original_expression_sha256": "7d272b5cb6c70563bd298bd897a6f4aac927014e4216b0b0c907a1e69bb5f528",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "13.5*7.5 - 3.0 + 10.5*7.5*14.5",
+      "float_expression_sha256": "8891adef962b2544e5f0da8a1dcaa6d40abb529cd2114713ca951bdb35c977ea",
+      "id": "calculator_0665",
+      "original_expression_sha256": "22135ec3f3c499ba94d7a91d7b0a7f814b192780f57e6dc4b926ad8e47f707d7",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "17.0 + 10.0*3.0 - 6.5*2.5*13.0",
+      "float_expression_sha256": "20f39a04f6af0bc07ae67444ae0dc25c3b15bfa36cef77d8ca06e401a8f05288",
+      "id": "calculator_0673",
+      "original_expression_sha256": "38b48910485a6eb88f27a60162697d704b69d162aeff00ce681e199f2e718f38",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "4.5 - 12.0 - 8.5*3.5*5.5",
+      "float_expression_sha256": "462922d2d2a4f8c6f7e18b9f91d7cc0a2217c532bb26bf6f59229ced21a3244a",
+      "id": "calculator_0679",
+      "original_expression_sha256": "ac7a473380f5ac3085a8ac5f1af443ab35c1e2457ebaa5dd50818dbe919dcd35",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "5.5 + 13.0 + 5.5*17.5*15.5*4.0",
+      "float_expression_sha256": "5471099b891be50882579f8f1a36c0d7406fa5925d9bf5b4f8994f3d810eda25",
+      "id": "calculator_0684",
+      "original_expression_sha256": "3651ceb5475638944f13b1dbf627875b2aba48e0728f5d0f7b3274152e4c5de3",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.0 + 11.5*9.0*12.0*11.5",
+      "float_expression_sha256": "0ee33e091a294d137e2f03da8f14d5deef42d8825342ac461b70e759f3fb5890",
+      "id": "calculator_0695",
+      "original_expression_sha256": "f486e9546143fdf6869bb02864fce44829623cbcae2c6bbcbc83fb7fe34fc971",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "14.5*12.0 + 3.0 - 15.0*3.5 + 14.0",
+      "float_expression_sha256": "ae735533e2c8d57a5e81c2f92be956a87536fe1546753e6562d538d8680d1875",
+      "id": "calculator_0697",
+      "original_expression_sha256": "d67d0e0b258937907b575f1c647aca56c948d814bc64e801748bb514a75aeeab",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.5 + 13.0*15.5 + 3.5 - 6.5*17.0",
+      "float_expression_sha256": "f4651e387d66d9674c09333d146aa729cd1e5acbcf465e630de9b778a9994eef",
+      "id": "calculator_0699",
+      "original_expression_sha256": "9d027cd126503090ab2c85d9e9e1f7e2ecd2d33c65cee3d90a9ddbc24abf9d6e",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "4.0*9.5 - 4.0 + 16.0*14.0 - 9.0",
+      "float_expression_sha256": "8677c609910efff39fdd3962621874200a9339024702daa9dbdde09e5b465b14",
+      "id": "calculator_0701",
+      "original_expression_sha256": "fa68bf59105373aa05229cbeab601e15a4053eebde9bf1ff4463d6fe7cd3f7c8",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "19.5*19.0 + 4.5*3.0",
+      "float_expression_sha256": "25ecf8a92a630698a88bad975314bcf2523dacff2ebac5731057598d2b5b909f",
+      "id": "calculator_0702",
+      "original_expression_sha256": "beaea8ceca29e8c628396ee45019e87de40ba7818222cb268e930ff29809ee25",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "15.5 + 13.5 + 4.5*13.0*7.5",
+      "float_expression_sha256": "818db785193c1e5ecb8f3ffc3ed67fb431bc6cefb4675de2bcd77b57900124f0",
+      "id": "calculator_0706",
+      "original_expression_sha256": "07218dc977a78515c84fd36db0bc99df56f319bc4a8bf3451c381958ff6f792e",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.0 - 12.5 + 4.0 + 16.5*13.0*4.0",
+      "float_expression_sha256": "4690d7b0a0c65fc01cacd682ec60eb4bf0d1687d9c54871b59cf59dd6301ce3c",
+      "id": "calculator_0707",
+      "original_expression_sha256": "12f0e26f1d073704f20ae441132ea7fed11188169cb90ee2f9f88ae86f9201af",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "12.0*12.5 + 4.5*14.5",
+      "float_expression_sha256": "8f96bf850f6660f57533f099d9c274f736bd38584c090d04257c84d4bc402199",
+      "id": "calculator_0712",
+      "original_expression_sha256": "26ed9ea9ad1be6331dc2b55c2516d377a85766261e42f43c51e68ce6df574341",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.0*5.5 + 12.0*6.5*10.0",
+      "float_expression_sha256": "5d55c5edf9888181e34dd734f189465df49452291e9c56d53c2de592b290a0f2",
+      "id": "calculator_0713",
+      "original_expression_sha256": "42d77dc84fb9557b9e636f8343eb7d970a895d8069c7e1568276ba11b1c1cb68",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "17.5 - 14.5*19.5 + 20.5*7.0",
+      "float_expression_sha256": "2888dfc31b7daa3fdcf71c5c3a7f9eef3715f089dd5cb0bd2515c0a68f45fa09",
+      "id": "calculator_0714",
+      "original_expression_sha256": "6939b3305cb96217eb37b928da0cf9b4aee69edc071822df00ac9b457811255d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "2.5 - 18.0 - 17.5*7.5 + 6.0 + 14.5",
+      "float_expression_sha256": "7fbaa6d301335733ec085f4f75830c41558033fc48211c3092d56cdfc8cb5f71",
+      "id": "calculator_0715",
+      "original_expression_sha256": "b64af6f82cfdfa1d8537fbc65e5c3e469408b09ac3a4fba397ea5f30605a7bf3",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "11.5*10.5 + 9.5*4.0",
+      "float_expression_sha256": "657aea2e97f8d1da4a512d9480b9ad4050531bc060073182637cdd46f3cc59b7",
+      "id": "calculator_0721",
+      "original_expression_sha256": "c4c3dd7868c2a448cc1d13e3ef8f0b3f5954cb2caaf33a8bc8eb44d53f47e89d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "3.5*7.5 + 16.0 + 10.5*3.0*17.5",
+      "float_expression_sha256": "9a1cf059ed33063e81be5c935efdf22fa94ba6726b3c7c260c28cb676fbf210c",
+      "id": "calculator_0726",
+      "original_expression_sha256": "a55e293d083dc14032ce1a9de23f2ee2e9eb1e55d21711d71b0accc0c3f1dddc",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "9.5 + 19.0*5.5*10.5*4.0",
+      "float_expression_sha256": "5db26b2ef56a820423ca7411be94fac39acd5e5bc2d5df4f3a26c166883c0842",
+      "id": "calculator_0733",
+      "original_expression_sha256": "188724d71dc68905e471eb0ee8438267b1a3178a464c4a668f321b3f23957bd2",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "15.5 - 7.5 + 2.0*7.0",
+      "float_expression_sha256": "77ff8ec9497d24ad05de46225b43394ca3e37194075a048ed217cefc0152ab43",
+      "id": "calculator_0737",
+      "original_expression_sha256": "f4e683911da08099de80e7e45cf5e34524d8ebbf874faf32a88b2bd6dce3cb97",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5 + 11.5*2.0 - 20.0*9.5 + 11.5",
+      "float_expression_sha256": "72c6801522fa90fe6e0607159730ea7c8daaa4bb8107ac30c41025bab788d00b",
+      "id": "calculator_0738",
+      "original_expression_sha256": "246d2a8f52a58e0d2e4a7472bbb5c77f3aadbee9587005d51d3885ff1da98ff2",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.0 - 20.5*3.5",
+      "float_expression_sha256": "e1a75b2143e0dc62f944b5b48825ca56e4d244fa9b97524009814e0237c10137",
+      "id": "calculator_0741",
+      "original_expression_sha256": "52ea625febe220e4a3211f34ebc6501a599fd2c2dc1d307545aff24c8d1ea906",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "17.5 + 17.0*20.0",
+      "float_expression_sha256": "c8cd15539612f39c87490f70ad8ffa6237d186d15ea08461887b10d047373563",
+      "id": "calculator_0756",
+      "original_expression_sha256": "4cc780dd8d09da5ae87478637b2463128fd9c25e339b7c272fe2ad017d2d3b8c",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "6.5 + 3.5*15.0",
+      "float_expression_sha256": "2426d7d0740db0f888cd3914a663ab937b459c83837b7a4432895c7f9bd7c057",
+      "id": "calculator_0758",
+      "original_expression_sha256": "315099c19323688266c7f1c43b4dc87c141f3efcfcc108d69e2a332dc4810e66",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "11.0*8.5 - 15.5 + 8.0 - 9.0*4.5",
+      "float_expression_sha256": "c64a6e5f81fdf38dd8f77a82aedee98612d81b0139dbab4e076de41b16bbefd5",
+      "id": "calculator_0768",
+      "original_expression_sha256": "8abc5690fa6c768e6a98861e1fa906529948ac5f9cc79c509f77b1e57d1834a6",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "5.5 - 15.0 + 10.5 + 12.0*3.5",
+      "float_expression_sha256": "8f2b83c44906ace58ee9337189ccb14844a55f85990f5d963ddf92fbe8ae85da",
+      "id": "calculator_0770",
+      "original_expression_sha256": "cdaadae21f8c28ef6750074b4af786ae5301db4553e8bd07c4db29b67a237fea",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.0 - 2.5*12.5 + 16.5",
+      "float_expression_sha256": "caee24ef3ffb19341c7e0dc1460e54dd173cbc45b49f2898a9db220e039d1d0f",
+      "id": "calculator_0774",
+      "original_expression_sha256": "d9b5fa86d9dfc79974eb29db32358c5c038e4dccc66196491d6f7205a866b69f",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "13.5*9.5 + 2.5*16.5",
+      "float_expression_sha256": "a66387ecb2c42e3e2d8b26a429531bf68b76d66186f9083f40c3060a4075ba64",
+      "id": "calculator_0775",
+      "original_expression_sha256": "74b9b7b4dbde0da1d84f88b75280cd2ccf07279c73670c53fd46e27de83e0fc1",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.0*9.5 - 5.5*9.5 - 8.5 - 14.0",
+      "float_expression_sha256": "44734198235464984ff593d3b249a85d5e6b4e886210c9a030a2361207605aa7",
+      "id": "calculator_0776",
+      "original_expression_sha256": "769110a46a3f1fa7d60fd78e48083cfd8bf949c071c82f7b47be33e18e9ae991",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "15.0 + 10.0 - 4.5*4.5 + 20.0",
+      "float_expression_sha256": "b51a560e7af1a1efcfd4b4e8359dc22e3c4006c12bb5f574ae1821ff0d34483d",
+      "id": "calculator_0788",
+      "original_expression_sha256": "949dae41f70c3e0c96d953dca785d5ab03132ebc806bd4d6ad97a58c05c7265d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "6.0*19.5 + 11.0 - 3.5*6.5",
+      "float_expression_sha256": "74ceb17f3c50e3bcba9678f0d78270304e36f2330735d307ad5e818eb21c2b66",
+      "id": "calculator_0792",
+      "original_expression_sha256": "23b3b36578822f0f269d01f08a4cc9e89c0afa2b8d9649c4ed405f368893c308",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "16.0 + 2.0*15.5 + 12.0*8.5",
+      "float_expression_sha256": "c2b001973656ef24e4b610fa790b60847342b450ff4480ec314ba9582730b314",
+      "id": "calculator_0796",
+      "original_expression_sha256": "c6da259cca12e3df17de599ce6cf3b9105208ce1aead6a40bce013965e2796f0",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "7.5 - 18.0*12.5",
+      "float_expression_sha256": "e7b9486913aad9e38e9c43996985cda82f904b36dbec035a930901fd09ca69b8",
+      "id": "calculator_0798",
+      "original_expression_sha256": "f3dce45eb98d927fd95bc805841320824ba008cea74039bdfd89009d83ff26ed",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "11.5 - 12.0*18.0 + 17.5",
+      "float_expression_sha256": "a8ce61844709167319f7042643df920c684670d6a4f64c7e203ff335ff7500f7",
+      "id": "calculator_0803",
+      "original_expression_sha256": "34678762fd406dd3bee9d0ce49935d2582aa4f3c96a39c89c8f25133877b9719",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "15.0 + 13.5*8.5 + 4.5 + 7.0 - 4.0",
+      "float_expression_sha256": "0161b2cd56f870fde38df23b28430f9d4cd56872374b7b192aa7ed5052cd9314",
+      "id": "calculator_0812",
+      "original_expression_sha256": "0c724d21499545cb8c90f64e23ecacd225dd90627419ca1c437fcadc0234da89",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "5.0*15.5 - 19.5 + 10.5*8.5",
+      "float_expression_sha256": "a96cd72dfd418a5bbc5726cb81a4c117985c27eaef7692741fff18c20531821e",
+      "id": "calculator_0818",
+      "original_expression_sha256": "28df9ec370550017883e81ae3296b5e422aa45cbd098c8e0b53d0f597ea8e3db",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "2.0 - 8.5 - 16.0*19.5",
+      "float_expression_sha256": "643f31ac05178b33330c8f926ed50fd77da6296154be15be46254972c093e4e2",
+      "id": "calculator_0823",
+      "original_expression_sha256": "f1c140989e7870f1ae3fb6c328168c9fa2f99004c3e662f035099dcdb2f5e84c",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.0*12.0*13.0*7.5 + 11.5*6.5",
+      "float_expression_sha256": "27a77d19125070c8ab7a7839b6d2fa0e7d584958e89f2098da2049d875f40659",
+      "id": "calculator_0824",
+      "original_expression_sha256": "ac65a1803ef617581cb250a868f857c75e8736a867d218429ec83599d67f9391",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "17.0 + 8.0*10.5 - 5.0",
+      "float_expression_sha256": "0ba354493c2418e02259a1f9c77b4db2e424e5ad2bd55a5acc1447cb3e82c4ee",
+      "id": "calculator_0826",
+      "original_expression_sha256": "89d3b6a20853b06d9ea6758a343f1ff478fdc405de66bc98eca88652d0ef6bd7",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "13.5 + 17.5 - 3.5*15.0 + 18.5",
+      "float_expression_sha256": "8ac2f9d2c10672d0aa49d0cc934c89579cf0a987d2bb3b313298e820fd0f74ea",
+      "id": "calculator_0836",
+      "original_expression_sha256": "c0cbfafda59bbca7b97d5917e0d031f8ccb45794452697add40fa1446cb1f584",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.0*10.0*7.5 + 12.0*17.5*17.0",
+      "float_expression_sha256": "2f4739a79dea6d0706afe2f8a4e4371a90792e8b26bbffad053b8d21bafec1cf",
+      "id": "calculator_0838",
+      "original_expression_sha256": "8c153276b68db813d8e2504fb035198099cf5446b10b9d65526c9a6e3fa05d73",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "6.0 + 20.5*3.0 + 19.5 - 5.5",
+      "float_expression_sha256": "726b6bbdb93581ff165986c8addb9abe37dbfe16fb1277dc86890bf659e42c5c",
+      "id": "calculator_0840",
+      "original_expression_sha256": "13a291589776fe31e66b1e46a0488784998cec638cd7a1d0af7f2e61950a4c38",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "15.5 - 4.5*8.0",
+      "float_expression_sha256": "7d397ca25e0de407a7900cbdfa07a6bff3cc35cfff366bdeb58310ef8a531b00",
+      "id": "calculator_0849",
+      "original_expression_sha256": "c31af664b571c765035ed9f9f5a432524e89e3ea1fcae9c625991cac29971460",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "12.5 + 8.5 + 13.5*13.0",
+      "float_expression_sha256": "c3264c2a45dbc8ef5f4ec9b8035a1b19f950be12b32ba52f6b435b3881e19daa",
+      "id": "calculator_0852",
+      "original_expression_sha256": "36bc488a878485d6092c9e13183a9755be2ebd4adc757538798355d1812d150b",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "16.5 + 10.5 + 17.0 + 14.5 + 4.5*6.5",
+      "float_expression_sha256": "4774d42f20910bca35cdb6f635873cfe09cc1865afb76d8c36bd1ac4090bc16e",
+      "id": "calculator_0862",
+      "original_expression_sha256": "02c7a67ddc9fb603b062121eaf2dbbb1d097807dc564be2efc6e5c80ce8e313e",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.0 - 16.5*8.5 + 14.0",
+      "float_expression_sha256": "3519d4ad1838cedd5337c335e51653a2821629e0045ae58bce4e00c37448435e",
+      "id": "calculator_0867",
+      "original_expression_sha256": "167cde51c36afa148df832819a0e7f3dd9c118083c29d832c52ffca1d493c23e",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5 + 4.0*7.5",
+      "float_expression_sha256": "7022a9b19289b7c25733a455aa1d5bfd0293ca8012430680fd1e568f3ccf779d",
+      "id": "calculator_0873",
+      "original_expression_sha256": "705efb54dbd7184d618c05aca67493bff8fbc69d84d33f4e99f8886bd794d867",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "6.5*17.5 + 9.5*15.0 - 13.5*13.0",
+      "float_expression_sha256": "b2a2f8608b66a492662272608f56defbb34e689baf32b8ce96db0cfae6221e38",
+      "id": "calculator_0874",
+      "original_expression_sha256": "7b5391ee89851385bbe47f18dd0a5ebb4228afd464912cb6fd3010c1797c96b0",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "5.0*2.0 - 9.5 + 16.5*18.0",
+      "float_expression_sha256": "14a937a3f2576be9b45b72cce950c50baa1a27511be5e7b832961f4fc45110ea",
+      "id": "calculator_0880",
+      "original_expression_sha256": "a86e7df59321a5f31336b664a77bd4e2b1ce3d112cc7f545e22c0b96d819cb7d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "9.5*13.0 - 18.0*10.0",
+      "float_expression_sha256": "a6dd939478bb285bf789d47b60acdeaadfb6b43e359b266faeccbf05856ea8a3",
+      "id": "calculator_0881",
+      "original_expression_sha256": "9cdab7fdb3e4ab3457c940c4ceb6157b43c7f4d0ca5617aef8146549876ccac8",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "9.5 + 19.5 - 19.5*3.0 - 6.0",
+      "float_expression_sha256": "ea7f1b62b055a84d962134b45d86909f493b57ba9ed26b879ebf37c7eae3481d",
+      "id": "calculator_0885",
+      "original_expression_sha256": "d38b22a55ef0af95b614f7ee79ad6b165704c856aeb8e1fd642f759f74c24022",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "13.0 - 8.0*10.5*12.0 + 13.5",
+      "float_expression_sha256": "ffe2aa5c2e857d51bf26317131dde417f24c238d36311a1583caa3afcfb19bc7",
+      "id": "calculator_0889",
+      "original_expression_sha256": "73b7e130c7fc4c3c5367437c7f51f4d04e616074aa416938cb0a05a7cfa6d919",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "3.0 - 5.5*17.0*15.5*9.0*6.5",
+      "float_expression_sha256": "29a482721e5f141b11d03d69cf6fa853892037d689b57deb7556a6895805bf79",
+      "id": "calculator_0899",
+      "original_expression_sha256": "c1a6b77a5ca989e5fcebd2a2a6a9995aa0a51c7fd37954317cf0546bab2e658c",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "8.5 - 2.0 - 12.5 - 9.0*13.5 + 6.5",
+      "float_expression_sha256": "38d6966f8e52a3371a9e7eb51b2fc152390b783d4d4a919e07ceeca9945fbefd",
+      "id": "calculator_0904",
+      "original_expression_sha256": "988d021291e89f3d9ecc8425dea8ece4153ed86a8f0638bca9da5d40d6f29624",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "15.5 - 4.5 + 5.5*15.5 + 11.0 + 16.5",
+      "float_expression_sha256": "342d51e09d788e34a290660e864d2c741233b4ad45b31c4355a4833e00cef86c",
+      "id": "calculator_0911",
+      "original_expression_sha256": "978d5794adbb5aef91902f445faa7be78e759ff47138f24b073da3f9d3c8d3b8",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "20.0 - 15.5 + 9.0*6.0*15.0",
+      "float_expression_sha256": "ea4fb846dfe6b1381b8b3fa1536c1bed212ab26c276b9cff6fa82d847a49309f",
+      "id": "calculator_0918",
+      "original_expression_sha256": "5de6a7bd1834cf7beec0853424ed6579a6d1cd81590c425f90bf9d8bf540768b",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.0 + 5.5 - 8.0 - 4.5*18.5",
+      "float_expression_sha256": "73559c0d5b2b9e931e8c26d21b9c546935c2b2d60068a8c8bcc3d02453715daa",
+      "id": "calculator_0919",
+      "original_expression_sha256": "8711df7b2db4f2ecbd30bba234db7df78c3f0a62d5108d54efc076992955d91c",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "4.5 + 7.0 - 10.5*19.5*12.5*11.0",
+      "float_expression_sha256": "c4f3b087218728b5d9cbfdbfa85972691541a16a9ceafa0ebf5bb3a964b98a09",
+      "id": "calculator_0933",
+      "original_expression_sha256": "f85ff61b86cfd17e4136a57e1ef96afb311fcf4136acf339b1fb28a2b9194a41",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "17.5 - 8.5*12.5*3.0",
+      "float_expression_sha256": "5a8ae84df608ea8596211e8e6f3f1ce27e893e527349dea88c421085f516f7c4",
+      "id": "calculator_0941",
+      "original_expression_sha256": "3a2f6994f2f16daefbc5670d3d69deac8186cfef233f048f7cd906c76564bba1",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "13.0 + 6.0*10.0 - 8.5 - 9.0",
+      "float_expression_sha256": "9011cb1ec504637e4d7d1996c134a22847adb588bd83e0412c058ae2bfdc182e",
+      "id": "calculator_0943",
+      "original_expression_sha256": "f7812d572d54e8f018cdd539997b5397314a0595e0307e3eeac01ad0429b607b",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.0 - 3.5*16.5",
+      "float_expression_sha256": "5b79616f6723864cc67059a28f5f0fd531734a8d2c05316a6e2036df94427420",
+      "id": "calculator_0951",
+      "original_expression_sha256": "9136a546fa4e5a7896cb894795726176f719fc760cf41f23786fd6c6ea9b2561",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "10.5 + 14.5*16.5 + 11.0",
+      "float_expression_sha256": "dc4f4bc7ffc581d6f1a8ab43c53e770111c2e248dc1433124dea13186bec3549",
+      "id": "calculator_0967",
+      "original_expression_sha256": "9e996f22654ac29e14be854e62653c48193f3fe343fe94d4af9c4b0a4e7c0f40",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.0 + 12.5*18.0*19.0",
+      "float_expression_sha256": "785ef53ac9fd640486477fa9f6c16727f33c81e55998f67258d7979deb88349b",
+      "id": "calculator_0974",
+      "original_expression_sha256": "9d5ee8177b570a6dba3b8d884d087c18838ea3d3473b924ddd9a7fa92916514b",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "2.5*17.5 + 5.0*8.5 - 11.5*17.5",
+      "float_expression_sha256": "727b21888b6c22d1890e1885985615488a1bbfbc07b8476e5bcf201352dcb6ac",
+      "id": "calculator_0975",
+      "original_expression_sha256": "632d6152c5ca3735394ffb26c79016c89db9b5d49844addab63e889475f321eb",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "19.5 + 14.5*10.5*7.5",
+      "float_expression_sha256": "e60d07b8fd1483cf0f2d863bf017275138fcdd4cda0dac968f806e405815fddd",
+      "id": "calculator_0986",
+      "original_expression_sha256": "5fc32f423aa806bdbf002f555252a4bc7fd6419b8dbaade9d729b73b713cf7ea",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "4.5 + 15.0*5.5*5.5",
+      "float_expression_sha256": "14e4e0640f38971cd483ff107c57b84b0fb5520248efd9a90883e9097aea1fd7",
+      "id": "calculator_0988",
+      "original_expression_sha256": "687199a87d8a5d5654d1571f7970a90bd5d271ba3087c3b658029f3cecd62910",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "6.5 + 12.5 - 5.5*13.5*17.0",
+      "float_expression_sha256": "2e70e4b329bcde459c3f4936acab188627aee3f3ea3cfa430d9f89fa3a78fcb7",
+      "id": "calculator_0989",
+      "original_expression_sha256": "e466c70ee0f6a7f63b2782e0cfb684fcced4d46b754ec8a028097ded5433d2a1",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5 - 17.5 + 18.0 - 12.5*11.5*8.5",
+      "float_expression_sha256": "d0ed7c22c2ca8c101dba8fdf5af0e93a2f8cff4e8e862478f6f62b90f5a90f0f",
+      "id": "calculator_0990",
+      "original_expression_sha256": "ecb33c753bbbf67de6555c8d90f0ce443fa11c70af36bc2b24160b7b89e1065b",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.0 - 13.5 - 2.5*5.5",
+      "float_expression_sha256": "9b35022f1a6172e460d94b002f6baec8badfb4b5e1770bcd8edcc783ead46a2d",
+      "id": "calculator_0996",
+      "original_expression_sha256": "d318d8ce65b90d242105cacb63b2f9ecd302fd32095be715226ac02cc7fbb462",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "4.0 + 9.5*8.0",
+      "float_expression_sha256": "cbcd4af094dedd829996723ed7a22ec70417e01c466c1a57d8d62cd670df19fc",
+      "id": "calculator_0999",
+      "original_expression_sha256": "ac59fd36813f3257c297e6e268a2c658a120746b0e8b3cdcccf6d6fa3ad91a83",
+      "tier": "easy"
+    }
+  ],
+  "input_sha256": {
+    "grpo_ids": "33c87de11362e9b534f937e46e493a557f16b593219659f2792e81fccc59dbca",
+    "sft_ids": "acf5da4bf031cdc9e44b0aff3092e011710b959426c1925778bb70ec6ff125d8"
+  },
+  "name": "floating-point-20-30-40-percent-ablation",
+  "nested": true,
+  "seed": 20260725,
+  "sft_pool": [
+    {
+      "float_expression": "16.5 + 2.0 + 19.0 - 13.0*8.5 + 12.0",
+      "float_expression_sha256": "b388d01445749b9f2f41d7bfaa775d957ab9f169f818a797e4767903fc10b354",
+      "id": "calculator_0008",
+      "original_expression_sha256": "e7a824f434c23ef567744837fe81f5d1e41a80b60d587b60e4273d50c4a899d5",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "11.0 - 2.5 + 4.5*20.5",
+      "float_expression_sha256": "4fe2422c647fa4ef2154f4d5887d931835a6cbc0b3be51ba4dc7653528d7205a",
+      "id": "calculator_0019",
+      "original_expression_sha256": "c1a62710ca9f669e45dc0ef4f5e5f710476865d0eb03ecda2e1ea95bce3aa084",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "15.5 + 6.0*4.0",
+      "float_expression_sha256": "9fcceeb4fbee0dcb9ce9ebc4685f6282d71aaddc3048d8068672bc64f472a63e",
+      "id": "calculator_0025",
+      "original_expression_sha256": "4e4788b71a7e60497e29cedabd7201c6871352eebb1dd7127ac69a0a064a160e",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "20.0 + 14.5 + 8.0*17.5",
+      "float_expression_sha256": "a0135fe31f1a4e02e4447e8aba691c2a396bd1d2cc72e40aaf26c5d5b6455629",
+      "id": "calculator_0037",
+      "original_expression_sha256": "d002b782fa3b10b34e9a43b62249e0b42da871ef6535033cf1ef1463cfaed889",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "9.5 + 10.5 + 10.0*18.5",
+      "float_expression_sha256": "571f9cfad464cc4da6d9be5fbdfc0cd89761aed2ff9e3efabf68917daa307084",
+      "id": "calculator_0055",
+      "original_expression_sha256": "c7ad931701c670a357c458916740644c57f5e86973e1ef701e3fb50d5cce8021",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.5*7.5 - 8.5 + 15.0*15.5*7.5",
+      "float_expression_sha256": "ad30108ee065ad5953ce692dcd2456c0901a3dc3ad10a5abe406d6870cb3dbb7",
+      "id": "calculator_0072",
+      "original_expression_sha256": "f03c6e6a7ab381cde6a9abb0128678ba09b04407361e94e07483c5f96ad02c1b",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "17.5 + 6.5 - 11.5*17.0 + 18.0 - 12.5",
+      "float_expression_sha256": "c1aaa0fc1e28dc60f989b8999881fe93a291e66a183973bd8b6ba19f28282ef8",
+      "id": "calculator_0090",
+      "original_expression_sha256": "f37dcc6470cdf32731734a1d1d116c37a349b0a3bdfa7bb6d09ff66dd0e68dca",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "12.5 + 15.5*8.0*3.5*12.5",
+      "float_expression_sha256": "f77f684aa4e30401c9f87e4265e947c0b36c3efcc7dca3ed00545006e2bc6c39",
+      "id": "calculator_0108",
+      "original_expression_sha256": "1cf9223a6998cfce6abbb796a44e31e29236aa0a10eb6896b1af04db48fe2143",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "9.0 - 13.5 - 6.0 - 16.5 + 16.5*4.5",
+      "float_expression_sha256": "c4207c67255c81729134bae248ecf01646b8bbf9d10c3e85ab0fb59fa576fdb6",
+      "id": "calculator_0109",
+      "original_expression_sha256": "359126a9251fec7f87214f08057c81f13ebff43477698a515f95bbd0f45eecf4",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "8.0*6.5 - 2.5*6.0 + 6.0",
+      "float_expression_sha256": "9d77775ff61c528c64a94b529a6199bd637bd7653adc564dd466a80071f9de9a",
+      "id": "calculator_0111",
+      "original_expression_sha256": "68cddd34aa547592bb27d8df6bb4bf32148834edcad6c9bcbecb94568ee7b101",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "17.0*10.5 + 15.0 - 8.5*8.5 + 2.0",
+      "float_expression_sha256": "ce913f600528c031adcd185fd1003e767ee6da7b654ce6729226d94f83ddad48",
+      "id": "calculator_0168",
+      "original_expression_sha256": "0102305a17fedee31f45dbbf5f705c6dc6ee0f5df58c2354e29802959e301926",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "20.0 - 6.0 - 3.5*10.5 + 2.0",
+      "float_expression_sha256": "cc2b4047c1c03afe8ddbf7394aa73779ea9a503903a1157f65d7c3e39322bcdd",
+      "id": "calculator_0173",
+      "original_expression_sha256": "c5671d60bca3762818ba8900a4d64ce5141fa273e6db782441a9714e966a72bb",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.0 - 9.5*13.5*14.5 + 5.0*16.5",
+      "float_expression_sha256": "84003c6262fcf3509facb232f5f847c7e55a6743df67b2d4671b7c435ca7c346",
+      "id": "calculator_0178",
+      "original_expression_sha256": "6774c417de24ab7cdc4096889ea65f159c8d55c45123807cd8141a97f30d2e4e",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "19.5 + 13.5*11.0 - 15.5",
+      "float_expression_sha256": "96fc010f3aed777d906febf8a84e8f62ef8cefb0168e014479a0bdf234caf0c9",
+      "id": "calculator_0179",
+      "original_expression_sha256": "6cd40ded08c6ad15bbac95a9e667d152ea46040882ccc73a47adbb6dc63b878c",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "2.0 - 17.5*3.5 - 6.5",
+      "float_expression_sha256": "2c7b3f355d883d5df147643ec39528e894e3434099bfbde0e2ebb3577d75d485",
+      "id": "calculator_0186",
+      "original_expression_sha256": "2fa580b58abe390331aa1993320c3fcfc905351c2b1151167212e962ea7ec39b",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.0 - 4.0 - 11.5*4.0*3.0",
+      "float_expression_sha256": "ca1e1e76ef8d64f5cbfa76670867a61455e74c3be9fe0150accc8156a107d3cf",
+      "id": "calculator_0191",
+      "original_expression_sha256": "90328038700d9cdd57414dd43aa1ac20c7a6c7a7b2d3bc5916f6277ec5ec6d5f",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "4.5 - 3.5*9.5 - 6.5 + 15.0",
+      "float_expression_sha256": "34aae15550cbd7c56e6c9079761d167de13c554939e9d64b87a0fc32eb69fd75",
+      "id": "calculator_0207",
+      "original_expression_sha256": "baa1a1796742e92ae40b355e95e3938b646916f43318960b8c36a20593ff594d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.5*18.5 - 8.5*6.5*11.0",
+      "float_expression_sha256": "29ae8654bab727feb7640a89b6279b0170081fbdc4aa0f80e6399e9502a6863d",
+      "id": "calculator_0208",
+      "original_expression_sha256": "ac7c4b6404e93e5635fdf3d4fdd9b231fdb231cd68a7e98c3be0fe72f0863edb",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "20.0*3.5 - 5.0*20.5 - 18.0",
+      "float_expression_sha256": "078aa1d88576fdb1c39d9c7b69206bfd9542491541cb6dc17814a170727143e5",
+      "id": "calculator_0218",
+      "original_expression_sha256": "cd7e2c4c40676d6460c869c894ce503765de252fee020ca6999072edd2a7938a",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.0 - 2.5 + 17.5*5.0 + 5.0 + 15.0",
+      "float_expression_sha256": "206a17f959231f68f97f0ab26991646b906e1cf48932821b35edde3091fe0918",
+      "id": "calculator_0233",
+      "original_expression_sha256": "52d665bd7af2ee86198d956135991d290da80f1e3a65219764866b86ba694ffe",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "16.0 - 8.5 - 2.5*5.0 - 14.5",
+      "float_expression_sha256": "dfa1b0af735f14994163dafd9ce9f2dffa13478a9ad53dec66abe764f4110563",
+      "id": "calculator_0237",
+      "original_expression_sha256": "02be554a1c3a9eded916d8a1b0f1e5b85cebded4dc2ff96837992b28b3897290",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.0 + 5.5*13.0",
+      "float_expression_sha256": "3cfee3e012f7a8a3a4c7a135a0ef49e0bb82340e0bc9e8d7018daf218c3cf2fd",
+      "id": "calculator_0243",
+      "original_expression_sha256": "04344878fcc7f99aa0d4b2e35a9aaf4c869fc5964969944ebff67a8d7c0980d6",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "11.0 + 19.5 + 16.5*7.5",
+      "float_expression_sha256": "96ef3d1ae1e991e831d7fbd2378d65cf63bf1d4c1c01e46afaad4873a3d1ac27",
+      "id": "calculator_0358",
+      "original_expression_sha256": "8331b338e764e2c59e2e43ce579038b9e50b7fe4f55686102cf44b1f3ea52a01",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "17.5 - 14.5*6.0 - 19.0 + 3.5*8.5",
+      "float_expression_sha256": "4242d5334cdf915097413a535fa3ffbe6e36bea0c79cb3408957a2eea222fa5c",
+      "id": "calculator_0366",
+      "original_expression_sha256": "6c2fade12320c30d5416fd02e51cfc33f1fedfc1c4920b753b80f9d390fc6e63",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "8.5 + 17.5 + 11.5*10.5*7.0 + 2.5",
+      "float_expression_sha256": "23f09f5d6facc36c5c9862d3c2c69da626fd4d762cff10e658a29d39c8faf5bc",
+      "id": "calculator_0370",
+      "original_expression_sha256": "65399b3bba0177c946f3a218667f41c19cc465f3334eb4ebb2aec063b5b484cf",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.5*17.5 - 17.0*14.5",
+      "float_expression_sha256": "0e18bb8998b136eedba7e2ed95d0912ceb3bfd256c6948d805a81b86d42e2266",
+      "id": "calculator_0385",
+      "original_expression_sha256": "9b394de4bb135553ce66058a636eedb45dcc0bba3bff22b1177e1578b9403591",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5 - 4.5 + 5.5*14.5 + 6.0 - 10.5",
+      "float_expression_sha256": "77613d9d1d2d9b1e3cf626704a298a9241df72be8272d9d784412fbccb224a7a",
+      "id": "calculator_0391",
+      "original_expression_sha256": "e7aee78711487a08c275f4658f4d1954c41e71e0fdc327caf51595d0a336ac68",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "7.5 + 13.0*11.5*11.5*2.5*10.5",
+      "float_expression_sha256": "b2ff241430e6bf08a89874b2a5c4c3e76c79a81236690de597763609957ea0b7",
+      "id": "calculator_0397",
+      "original_expression_sha256": "6e2ebb740fb1933a5114b05de7fff5ed84b50d70d3125393e515ec9ac05598b0",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "8.0 - 13.5 + 10.5 + 17.0*11.0*8.5",
+      "float_expression_sha256": "f51680327919cef38a854fd8f24f72e22d8747fa761562200e200afb12fcb01c",
+      "id": "calculator_0413",
+      "original_expression_sha256": "9646b5962ec16c25ffbe15b45dbb2428ad5fba26a8b2452157eb5c16196095ba",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "6.5 + 18.0*13.5 + 20.0 - 17.0",
+      "float_expression_sha256": "c93eb1644af7f327c7dacadd96a217a96849b449fb495a36e2f28f7579fd9566",
+      "id": "calculator_0416",
+      "original_expression_sha256": "358c31004139ee77d224b798fcc53edd0e49e8bda144429294b958e40dd40b47",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "6.5 - 15.5*2.5*13.5 - 19.5",
+      "float_expression_sha256": "4e3a8bb5037c478a183aa8d2ace7381d03463467caeb98f2c7e91b4d67674dcd",
+      "id": "calculator_0435",
+      "original_expression_sha256": "a64e1a04dcbb604d43d26117bca66d19abbee0937c9a364bd6c093db242674ba",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.5 - 6.5*6.0*8.5",
+      "float_expression_sha256": "5798258335b54f42c9859c4c7724bf3b25ec5db10c178b2da215af4e07da7ddd",
+      "id": "calculator_0458",
+      "original_expression_sha256": "4b20ab4c35b79dd888a1230a6b8cbf00fbefb422f51d9a794fb8fd7dd38223c0",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "18.5*8.5*10.5 - 14.5*5.0 + 14.5",
+      "float_expression_sha256": "f0630e92d9398be6e112d9a6184de4a00b0ea69d9ce9d03c3baa9f343aa190e4",
+      "id": "calculator_0477",
+      "original_expression_sha256": "290a63bda28e81260022b231e2b4420a0de609eafbe93b14187686f4bd0409f4",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.5 + 9.5 - 12.5 + 19.5*15.0",
+      "float_expression_sha256": "5a5d10a7cdabb800be949f60eeba37d858f4cef0c2546e81a15faebcea7d6828",
+      "id": "calculator_0486",
+      "original_expression_sha256": "0398f9ad608dc47eb92d0e99ed4d923b475e911af5a392e72a005d7386780af4",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "9.5 + 2.5*16.5",
+      "float_expression_sha256": "63221b2c6491f699c4a3b2d668623099607f8942798596acd6a88340e980c203",
+      "id": "calculator_0508",
+      "original_expression_sha256": "dbc93a42f2c7260a2fd1630a3894d784a68fb34d6a7f4cce878a0a4cc48362f1",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "19.5 + 6.5 + 19.0*11.5",
+      "float_expression_sha256": "0a6e78762b371633247f8901589a7977813f83dfae4c9997404f665034533882",
+      "id": "calculator_0524",
+      "original_expression_sha256": "ff10c339c85259621679971ba8c6491ce00ed59d166b6862f80d28507dadd9d1",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "12.5 + 19.0 - 12.0 + 5.5*8.0",
+      "float_expression_sha256": "326b5de45e52b4fd9949a48d627e906402c6dcdb7bb63c4496ef886d284fec66",
+      "id": "calculator_0528",
+      "original_expression_sha256": "5ee07fb3e6bf3f40e7057f0556e1483762090a2de081f81d3308af4e42da524a",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.5 + 10.5*13.0 + 3.5",
+      "float_expression_sha256": "31f0c914a7e8a97dc07468b60d744a3c6bad9ec26b93be16ac424ba8bcfda5a7",
+      "id": "calculator_0538",
+      "original_expression_sha256": "96f0ef770003de87db043f756073079546d3b8ae038296e98a5dc08ba40e1d3d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "5.0*18.0 - 9.5 - 9.5*4.5",
+      "float_expression_sha256": "3f53b33ea094969af978a4aaf8bbeaa3d1defab2eebca11037d8f3fc8db518b4",
+      "id": "calculator_0553",
+      "original_expression_sha256": "43b573306aadba6c1fd324b2a1825b7274378ca51f3cef137fa594e23b9defce",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "13.5 - 10.0 + 13.5*3.5 + 7.0 + 17.5",
+      "float_expression_sha256": "35eab06f2849c858bfa2610953c2da961915d2cd829a694b566b3987d7e96468",
+      "id": "calculator_0557",
+      "original_expression_sha256": "cd16dd02c653437c4ec3e2f4e5d349b7803b2022f8c10a547805dee6d0326ce3",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "5.0 + 3.0 + 16.5*4.5*11.5 + 14.0",
+      "float_expression_sha256": "657f100eb42ad4cf16321fb5439d2ebaea6a6f7d9fa962d28c648d4e69d06e28",
+      "id": "calculator_0559",
+      "original_expression_sha256": "873fc67581e57d9e90670647bf3ce960f4e9cf313e1af3c06be909a864552250",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "15.5*2.5*17.5 + 3.5*16.0*13.5",
+      "float_expression_sha256": "148d3134d8c4c23942f71cc0babba66624768f1e3e44f540bd1a2bf9425c6adc",
+      "id": "calculator_0573",
+      "original_expression_sha256": "892446779786e5cf30f9f257a3a6f56cd8f61696803ca45796fa4839e3c5e15d",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "19.0 + 14.5*18.0*15.0",
+      "float_expression_sha256": "c385cbd6fd8185e225b154faa596f4ddfbac73fadac76135f80837a17f072908",
+      "id": "calculator_0575",
+      "original_expression_sha256": "269a82db9b9f955cae59f8d6f8a2df3cd7b9aaa8be60ca3794cde2c792f9c8d1",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.0 + 8.5*16.0",
+      "float_expression_sha256": "7c749d955ccae5420c96960bbbf1c2b34c1d87cb03b456bc9f91d0875bdbc8cd",
+      "id": "calculator_0578",
+      "original_expression_sha256": "9608f6382a2e7c9df605d403ad6ee40f1dfd720f6ba28a8fdcd6c5add166e0b9",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "13.5*19.0 + 17.0*6.0 - 4.0",
+      "float_expression_sha256": "8931d67415282df18fcb5b9cda7db9dc37acea29783b5dbde579c797ef637761",
+      "id": "calculator_0584",
+      "original_expression_sha256": "a86105cf51d10b5c7212ad284a9bf363d66299e12bc29baef3179a672e72f0a6",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.0 - 19.0*19.5",
+      "float_expression_sha256": "3362fe3b4d34ae17a0a0d28258a96d345316de16175aff3d67b380e3e69bece4",
+      "id": "calculator_0586",
+      "original_expression_sha256": "501396ee149de70b64c5f68a6651c8b274f308912bb6b6b0a0f6f03a00925aaf",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "18.5*4.5 + 8.0 - 13.0*3.5",
+      "float_expression_sha256": "4dfe69ffe66b87ab03d89a6c76dadca7f14d5bd50dadc831ad6b552b61961750",
+      "id": "calculator_0587",
+      "original_expression_sha256": "f759e13086c785e9aa2aadf23142c0ea628d93c9d6ad265558e9c5d066917781",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "14.5 - 6.0*13.0",
+      "float_expression_sha256": "dac521de5122b2fc121f105441a4b3690b08838806b81b4655c2f33630df9038",
+      "id": "calculator_0598",
+      "original_expression_sha256": "57347a6ce12ef07ee4defc2d97f404810337ec81e6706733ceed89f238a868d8",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "10.5 + 12.0*8.5*17.0*4.5",
+      "float_expression_sha256": "380e9ab324fce39261f34d83ac846c9e75a5f560b04c61198f62bb191d0a9be3",
+      "id": "calculator_0634",
+      "original_expression_sha256": "7c6bf9648cd5c22cc076f0efe2ea0d5dfcbc3d2aa76c136be71be4b3e37f05c4",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "11.0 + 12.5*13.0*11.5*4.5",
+      "float_expression_sha256": "78df574e51d16bc5b7ae2006132447e44df7c43609e238c49859e80e97425bc2",
+      "id": "calculator_0635",
+      "original_expression_sha256": "536f5e12d948a9c6d2d7b8e7a630bdefe2d9f63223dbf115413a5863d63c3226",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "6.5 - 3.0 + 20.0 - 11.5*4.5 + 19.5",
+      "float_expression_sha256": "97a8665f839f143b2848d9ec4a9a171c76fe26e954e0378f8d160e07c7308908",
+      "id": "calculator_0636",
+      "original_expression_sha256": "e40d102a0a0d07839acae387eafed6dcb50f5b284aa763920f3b1b73ce990d02",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "13.5 + 9.5 + 5.0*4.5",
+      "float_expression_sha256": "0f3acd714753625385791eab833480a85ed5228eaee02bb0ec39de5d56d2fa66",
+      "id": "calculator_0640",
+      "original_expression_sha256": "d3af15147bbf96afff1fe87e44912330f5dfb2e4beff0420b09a745612a3281d",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.0*17.0 + 13.5 + 3.0*19.0*19.5",
+      "float_expression_sha256": "1fa4cc455cb5ef2e8f07b65f64771dc1fb2708d08d704b63d6690b7462b96e83",
+      "id": "calculator_0642",
+      "original_expression_sha256": "fd514da7cf01c4cd5710c20633bc5d0a4d407572a8bc89371efe4f4cd18de8c6",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "2.0 + 5.5*13.5*8.5",
+      "float_expression_sha256": "1e9460b2ab44cac82a77531a4faf3bc3e3481e2e7f70bfe426a378cab49f214f",
+      "id": "calculator_0644",
+      "original_expression_sha256": "77bd1a49334d6ed54fb69a7d651773ffbb0894c5eed9857828e0697c2b8d2951",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "14.5 - 3.5*13.5 + 11.5",
+      "float_expression_sha256": "6b2fe4125c1ecc9c63a87217e93a697b2646ad70471c322baddd8b9018fc6182",
+      "id": "calculator_0655",
+      "original_expression_sha256": "c9a16e661e95da5781320f24506cdbc47a1e577af222955c8c290568d3225160",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "15.0*7.5 + 12.0 - 4.5*6.0 - 9.0",
+      "float_expression_sha256": "5049509c194cd8239f9a9e557e54c56356d05ce1917803e4cd127e058bf4b79c",
+      "id": "calculator_0676",
+      "original_expression_sha256": "b4a09a91c4b7b0767fc4d6a79598a767c9cfc182bc4eb03cd741e12abe3e4fee",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "11.5 - 7.5 - 7.5*5.5",
+      "float_expression_sha256": "bf4c159b514c2e8b2c51115d14f865d28c5db93b652936071f74ef6ea486468b",
+      "id": "calculator_0687",
+      "original_expression_sha256": "654dbef4b7a94d436de022aba0473b8270cc49ec3adb3ea054dddfa3f5b4b914",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "8.5 + 19.0*18.0 - 2.0 + 12.0*8.5",
+      "float_expression_sha256": "c9bedf33da111f6a6f0d58648c6f31e93c511f963e74fcfd902490e23362534c",
+      "id": "calculator_0691",
+      "original_expression_sha256": "69333e48a7865671a4e20336360f1b74ddd860848b2ee95beea7d893c07c09af",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "7.5 + 7.0*3.5",
+      "float_expression_sha256": "318b96324c0d6e05bf4efa23424217b13962866b19794d893daf97267873a154",
+      "id": "calculator_0730",
+      "original_expression_sha256": "7deab92a6c07e40ba8a2cb3d94f6dadc99aa0c645acca4ca0f673b483aa58269",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "19.0 - 11.5 + 15.5*11.5 + 18.5 + 6.0",
+      "float_expression_sha256": "804cb6eb6376f59518c44b51205bc6a6b5b1d26d9441c2ef4c537b2b804641d6",
+      "id": "calculator_0747",
+      "original_expression_sha256": "0810da8581c39c56d3cd1ad2f2770e4ef3a55b25434fe60b001ed14ef52f8b0f",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "7.5 - 6.0*12.0",
+      "float_expression_sha256": "c2efece2998867b84e1111c1879e722f05167c604e8da4315f6b12e42d0e77c9",
+      "id": "calculator_0749",
+      "original_expression_sha256": "2425010e10af053f219d1286d6f8d8c86fbd9795cec881a606afa30fb97a81d6",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "5.5 + 20.0*14.5 - 9.5 - 20.0",
+      "float_expression_sha256": "2f7bc37fb58a46e48bc74fa156233b579698efaf7505952cb02cd84e5ec8bb4b",
+      "id": "calculator_0769",
+      "original_expression_sha256": "ddc66e9d1a284f2699eabc419de4e2414b9d9b31d7f3d5c28d0d5c3e84ff1734",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "17.5*18.5 + 5.5 + 8.5*2.5",
+      "float_expression_sha256": "8b65105c461d3ae1f334b6c9a7e7fe75c12c1bc083f274ef34ed65a2c0eea138",
+      "id": "calculator_0780",
+      "original_expression_sha256": "7d231f0fb3387096db473a789e25062d29c2a5549bfb396f561ba0fd7e539474",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "4.0 - 20.0*16.5*4.5*10.5*6.0",
+      "float_expression_sha256": "3408edba491b11e30568ef7edb2671a523f726ee1a4a196d42fc7188f46bb333",
+      "id": "calculator_0797",
+      "original_expression_sha256": "a8374cbfe1c16c5c8973cf6ee278242b8c74f41591e301233d71cbc6f3781c93",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "6.5 + 3.5*13.5",
+      "float_expression_sha256": "d3b7bc8b13f615151abb69fe2d307c0942a2acf550a8a2cd7bcea1256373c106",
+      "id": "calculator_0806",
+      "original_expression_sha256": "de3332012b0802e0f494f50908ac7ae29a25dfaab0c0fc872693cfe364a50f70",
+      "tier": "easy"
+    },
+    {
+      "float_expression": "6.0*6.0 - 12.0*15.5 + 9.5",
+      "float_expression_sha256": "efa7af27e08bd40b42bb61e28924abad11f2641fcfa6446f1392f4b23d25f84c",
+      "id": "calculator_0808",
+      "original_expression_sha256": "9e32ed64d33e5269135239f2c04e6351ff1ccd449e80391d700e43aa3d68d97e",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.5 - 11.5*16.0*12.5*3.0",
+      "float_expression_sha256": "8dd0009d68c8b4ca24337ed4c60553f26d2d260d7288fc7f6c62af6c1ed032c5",
+      "id": "calculator_0831",
+      "original_expression_sha256": "4f14f781b3d9c755e7aec182465e5a18d51b6a3c7fd6b9e3a79d4777782fc34e",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "14.5 + 12.5 + 7.0*11.5*11.0*11.5",
+      "float_expression_sha256": "d92cf0e2fca3191780c66858d1cab09611230cdf3d1a832ea085d74ea1bb9a6e",
+      "id": "calculator_0842",
+      "original_expression_sha256": "2e1fbe49822c15620652d38b4ee7e52c52852cb9f334bff937a707fbda6dc28a",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "11.5 + 18.5*14.0 + 10.0*4.5*13.5",
+      "float_expression_sha256": "643c07b3df0691d1f1b60ffdae511ee1bd0491ce269e1ea6848977fdb0d5dd31",
+      "id": "calculator_0846",
+      "original_expression_sha256": "93e5586ac973eed220b091c4ff265240cc20a5f44c74f6ab3bf36a92ff775b59",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "14.0 - 17.5*8.5 - 10.0 + 8.0",
+      "float_expression_sha256": "2f4e284a1fcfc572243ff83a776f43961febb19f67c62ac8992b09002300a659",
+      "id": "calculator_0851",
+      "original_expression_sha256": "b31b6c7ab6a36d389558311d1de768bdbd338a1b1cfa0861677d9554c7cd45aa",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "15.5 + 12.5 - 13.5*10.5",
+      "float_expression_sha256": "cebb477b3142669fc64a2ee82b4badab405e4f9c5e832d641181be1663717503",
+      "id": "calculator_0864",
+      "original_expression_sha256": "55fc9da98b489087b54506e19ce4f59adcacfd881e22a7df600331b764e9fd19",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "20.0 + 8.0*5.5 - 10.5 - 20.5*2.5",
+      "float_expression_sha256": "1dc82300aaeccc234697c282cd0f0b09041d3e322928f5d351832f0358b96e13",
+      "id": "calculator_0872",
+      "original_expression_sha256": "b6b02ff51a4f12bc13b2a05c1d1408ce8864ecb9d623d02c2060d9bcb74c6666",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "18.5 + 7.0*17.0 + 14.5*2.5 + 11.0",
+      "float_expression_sha256": "b5e1e59f90e5f1ce1f8518990680786a69a749a9dcc14f27648fd5c413eeb0cd",
+      "id": "calculator_0920",
+      "original_expression_sha256": "8bb8f71df8416449ac1604baf4ac022cae37c0b835e43ca7801beae0e05d178d",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "2.5 + 3.5 + 4.0*18.0*2.5",
+      "float_expression_sha256": "923da734759ea52a827ecfe31b82c556f077a278919f11f585d568fe61b0def8",
+      "id": "calculator_0926",
+      "original_expression_sha256": "ec73c9104197f8abb4fc4b1bb07cbbdae797e10608b4c053fb317a1e4f9cd30b",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "10.5 + 18.5*10.0 - 12.5 - 7.0 + 19.5",
+      "float_expression_sha256": "b9512150327bd5375def161946b437a4dbe7e915766f1058f71173b4b5c0202b",
+      "id": "calculator_0934",
+      "original_expression_sha256": "123d1b039d08dfe8e2aa85e503861d6ab64bf2f42bfc6dc3d07891d229dc946e",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "5.5 - 11.5*2.0 + 13.5 + 9.0",
+      "float_expression_sha256": "e14d2032b22b5968b3783ce12c9c07c03c5c3d807f552a37c5ca8dc6ff61f421",
+      "id": "calculator_0946",
+      "original_expression_sha256": "8a5435a6e6ec096ea433796a7e8705dc28de66594fcf331a76bd39f20f45e56b",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "19.0 - 7.0 + 18.0*16.0*16.5",
+      "float_expression_sha256": "2e2f44cdfa4c52d4fa9b1a81457573cfe7a6ef50e95522676dd81fa249953772",
+      "id": "calculator_0947",
+      "original_expression_sha256": "fcf3e8105f6e51de6c77cbcd2c2cb03feaa65ecc309e7f021bb865085cd2f374",
+      "tier": "medium"
+    },
+    {
+      "float_expression": "14.5*20.5*13.0*7.0 + 18.5*14.0",
+      "float_expression_sha256": "513960a49652ae7a2d5cb5edf92e32c8b78f43f9a0397f07fe8878cd44fef6f3",
+      "id": "calculator_0968",
+      "original_expression_sha256": "a9e33c4bc3ec363a3ea029daeed106f1d663435e80fe3c155d3e0ddeb790af5b",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "8.5*18.5 - 18.5 + 3.0*12.0 + 12.5",
+      "float_expression_sha256": "4ce8618a0e10e2bd4494c6531bf21cd6ce86392ee3afd1c9bde34aa710d76336",
+      "id": "calculator_0971",
+      "original_expression_sha256": "72f81850f937a0db45ac16aa0f788f36241bb40e4453d11441af84396a9edb46",
+      "tier": "hard"
+    },
+    {
+      "float_expression": "16.5 - 15.5*18.0*10.0",
+      "float_expression_sha256": "51ce7e9d3d065b198e8edeaf5beaa5107d4831d8c69d6eab61b34a321952788b",
+      "id": "calculator_0993",
+      "original_expression_sha256": "28ac722f13ad48bcf7669afa6738ce75b4bfa50306bca7aaf3bc94437497f482",
+      "tier": "medium"
+    }
+  ],
+  "source": "data/calculator_qwen3",
+  "unchanged_split_sha256": {
+    "eval": "d5fc449d32694ba3d66f93add3ad48cfaaa9ba811074977f08ad7ed61a0f9106",
+    "ood_float": "a5c32dafa1d32b4cf0053072962e97023a0dae6fa23c7cfce652a04bfdc3cf4f",
+    "ood_length": "1c58dcd9fab8375de1913d4d5fd62e5606f64a8987784131d0147c9204c7dbfe",
+    "ood_negative": "00e61c13d9dbde4bc911a1f41146695866b9594aa2b75cf55cf096075fab80bb",
+    "test": "8eb86aa49a0cd73896d97816c38f6358d76de64b7309ead676a083aab8a2f8a2"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "expression": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "messages": {
+      "feature": {
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "tool_calls": {
+          "feature": {
+            "id": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "function": {
+              "name": {
+                "dtype": "string",
+                "_type": "Value"
+              },
+              "arguments": {
+                "op": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "a": {
+                  "dtype": "float64",
+                  "_type": "Value"
+                },
+                "b": {
+                  "dtype": "float64",
+                  "_type": "Value"
+                }
+              }
+            }
+          },
+          "_type": "List"
+        },
+        "name": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "tool_call_id": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "tools": {
+      "feature": {
+        "type": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "function": {
+          "name": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "description": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "parameters": {
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "properties": {
+              "op": {
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "enum": {
+                  "feature": {
+                    "dtype": "string",
+                    "_type": "Value"
+                  },
+                  "_type": "List"
+                },
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "a": {
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "b": {
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              }
+            },
+            "required": {
+              "feature": {
+                "dtype": "string",
+                "_type": "Value"
+              },
+              "_type": "List"
+            },
+            "additionalProperties": {
+              "dtype": "bool",
+              "_type": "Value"
+            }
+          }
+        }
+      },
+      "_type": "List"
+    },
+    "metadata": {
+      "final_answer": {
+        "dtype": "float64",
+        "_type": "Value"
+      },
+      "naive_left_to_right_answer": {
+        "dtype": "float64",
+        "_type": "Value"
+      },
+      "operation_count": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "tool_call_count": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "tier": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "num_terms": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "max_factors_in_a_term": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "split": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "ood_type": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "source_operands": {
+        "feature": {
+          "dtype": "float64",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
